@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import classes from './login.module.css'
+import classes from './page.module.css'
 import Link from 'next/link';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
