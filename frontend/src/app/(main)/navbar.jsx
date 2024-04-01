@@ -3,7 +3,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-blue-600 text-sm py-3 sm:py-0">
+    <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-gradient-to-r from-purple-500 to-pink-500 text-sm py-3 sm:py-0 h-28">
     <nav
       className="relative max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
       aria-label="Global"
@@ -12,9 +12,9 @@ const Navbar = () => {
         <a
           className="flex-none text-xl font-semibold text-white"
           href="#"
-          aria-label="Brand"
+      
         >
-          Brand
+        Tourism
         </a>
         <div className="sm:hidden">
           <button
@@ -74,19 +74,19 @@ const Navbar = () => {
             className="font-medium text-white/[.8] hover:text-white sm:py-6"
             href="#"
           >
-            Account
+            Menu
           </a>
           <a
             className="font-medium text-white/[.8] hover:text-white sm:py-6"
             href="#"
           >
-            Work
+            Destination
           </a>
           <a
             className="font-medium text-white/[.8] hover:text-white sm:py-6"
-            href="#"
+            href="/contact"
           >
-            Blog
+            Contact
           </a>
           <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
             <button
@@ -160,7 +160,7 @@ const Navbar = () => {
               </div>
               <a
                 className="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="#"
+                href="/downloads"
               >
                 Downloads
               </a>
@@ -174,7 +174,7 @@ const Navbar = () => {
           </div>
           <a
             className="flex items-center gap-x-2 font-medium text-white/[.8] hover:text-white sm:border-s sm:border-white/[.3] sm:my-6 sm:ps-6"
-            href="#"
+            href="/login"
           >
             <svg
               className="flex-shrink-0 size-4"
