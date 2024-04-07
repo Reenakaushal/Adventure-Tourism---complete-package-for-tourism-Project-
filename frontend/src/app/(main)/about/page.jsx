@@ -47,7 +47,7 @@ const About = () => {
                   <div className="flex-shrink-0">
                     <img
                       className="size-8 rounded-full"
-                      src="snap"
+                      src="Snapchat-480996321-PhotoRoom.jpg"
                       alt="Image Description"
                     />
                   </div>
