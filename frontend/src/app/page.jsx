@@ -17,13 +17,17 @@ const Page = () => {
             backgroundColor: 'white',
             boxShadow: 'back',
             height: "60vh",
-            maxHeight: 460
+            maxHeight: 460,
+            
           }}
         >
-          <div className="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal">
+          <div className="container max-w-100 pt-16 md:pt-100 text-center break-normal">
             {/*Title*/}
             <p className="text-white font-extrabold text-3xl md:text-5xl">
-
+            <img
+                        src="https://images.pexels.com/photos/5533163/pexels-photo-5533163.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        className="h-64 w-full rounded-t pb-6"
+                      />
             </p>
             <p className="text-xl md:text-5xl text-black-800">Explore Top Destinations by Region</p>
           </div>
@@ -115,16 +119,16 @@ const Page = () => {
                   </div>
                   <div className="w-full md:w-1/3 flex flex-col flex-grow flex-shrink">
                     <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-                      <p className="w-full text-gray-600 text-xs md:text-sm pt-6 px-6">
-                        GETTING STARTED
-                      </p>
-                      <div className="w-full font-bold text-xl text-gray-900 px-6">
-                        👋 Welcome to
+                      
+                      <div className="w-full font-bold text-3xl text-gray-900 px-6">
+                      Adventure Activities in Manali
                       </div>
                       <p className="text-gray-800 font-serif text-base px-6 mb-5">
-                        If you wish to explore Madurai tourist places, then you must check out MakeMyTrip’s Madurai tourism packages. MakeMyTrip offers the widest coverage of Madurai tourism places through a variety of holiday packages and activities. Pick from a range of 31 packages starting from Rs.23713. Explore Madurai tourist spots with your friends and family, stay in quality hotels recommended by MakeMyTrip and approved by Madurai tourism, and have a memorable Madurai trip.
+                      Camping, Trekking, Skiing, Snowboarding, Quad biking, Zorbing, Ziplining, Biking, Rappelling, Paragliding, Downhill Cycling, Jeep Safari ,River Crossing, Angling , Ziplining and many more.
 
-                        Tourism in Madurai offers a variety of sightseeing and entertainment opportunities for all kinds of travellers. Your preferred Madurai tourist place would depend on whether you are travelling with family or friends and your holiday style, but never fear because Madurai tourism has something for everyone.
+Manali is situated amidst the frosty hilltops of Himalayas, with ravishing sights, delightful cuisine, and a sanctuary and interspersed local markets throughout the town.. But did you know that Manali is a getaway destination for those seeking thrilling sports as well? Skiing is, in fact, one of the most popular adventures in Manali. 
+
+Due to its rocky terrain and mountainous region, activities like trekking, hiking, biking, and rock climbing have become current venturesome activities. Due to the various streams of rivers, river rafting and white water rafting have also popularized in the repertoire of adventurous activities in Manali, making it an essential part of Manali tour packages.
                       </p>
                     </div>
                     <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
@@ -132,7 +136,7 @@ const Page = () => {
                         <img
                           className="w-8 h-8 rounded-full mr-4 avatar"
                           data-tippy-content="Author Name"
-                          src="http://i.pravatar.cc/300"
+                          src="http:/Snapchat-480996321-PhotoRoom.jpg"
                           alt="Avatar of Author"
                         />
                         <p className="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
@@ -152,18 +156,15 @@ const Page = () => {
                       className="flex flex-wrap no-underline hover:no-underline"
                     >
                       <img
-                        src="https://source.unsplash.com/collection/225/800x600"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMEuoy5kTtJoHqXMLNg6FYrNXr-TastDnrvw&s"
                         className="h-64 w-full rounded-t pb-6"
                       />
-                      <p className="w-full text-gray-600 text-xs md:text-sm px-6">
-                        GETTING STARTED
-                      </p>
+                     
                       <div className="w-full font-bold text-xl text-gray-900 px-6">
-                        Lorem ipsum dolor sit amet.
+                      Adventure Activities in Ladakh
                       </div>
                       <p className="text-gray-800 font-serif text-base px-6 mb-5">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                      Ladakh is bordered by the Tibet Autonomous Region to the east, the Indian state of Himachal Pradesh to the south, both the Indian-administered union territory of Jammu and Kashmir and the Pakistan-administered Gilgit-Baltistan to the west, and the southwest corner of Xinjiang across the Karakoram Pass in the far north.
                       </p>
                     </a>
                   </div>
@@ -172,7 +173,7 @@ const Page = () => {
                       <img
                         className="w-8 h-8 rounded-full mr-4 avatar"
                         data-tippy-content="Author Name"
-                        src="http://i.pravatar.cc/300"
+                        src="http:/Snapchat-480996321-PhotoRoom.jpg"
                         alt="Avatar of Author"
                       />
                       <p className="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
@@ -208,7 +209,7 @@ const Page = () => {
                       <img
                         className="w-8 h-8 rounded-full mr-4 avatar"
                         data-tippy-content="Author Name"
-                        src="http://i.pravatar.cc/300"
+                        src="http:/Snapchat-480996321-PhotoRoom.jpg"
                         alt="Avatar of Author"
                       />
                       <p className="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
@@ -242,8 +243,8 @@ const Page = () => {
                       <img
                         className="w-8 h-8 rounded-full mr-4 avatar"
                         data-tippy-content="Author Name"
-                        src="http://i.pravatar.cc/300"
-                        alt="Avatar of Author"
+                        src="http:/Snapchat-480996321-PhotoRoom.jpg"
+                          alt="Avatar of Author"
                       />
                       <p className="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
                     </div>
@@ -276,7 +277,7 @@ const Page = () => {
                       <img
                         className="w-8 h-8 rounded-full mr-4 avatar"
                         data-tippy-content="Author Name"
-                        src="http://i.pravatar.cc/300"
+                        src="http:/Snapchat-480996321-PhotoRoom.jpg"
                         alt="Avatar of Author"
                       />
                       <p className="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
@@ -310,7 +311,7 @@ const Page = () => {
                       <img
                         className="w-8 h-8 rounded-full mr-4 avatar"
                         data-tippy-content="Author Name"
-                        src="http://i.pravatar.cc/300"
+                        src="http:/Snapchat-480996321-PhotoRoom.jpg"
                         alt="Avatar of Author"
                       />
                       <p className="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
@@ -344,7 +345,7 @@ const Page = () => {
                       <img
                         className="w-8 h-8 rounded-full mr-4 avatar"
                         data-tippy-content="Author Name"
-                        src="http://i.pravatar.cc/300"
+                        src="http:/Snapchat-480996321-PhotoRoom.jpg"
                         alt="Avatar of Author"
                       />
                       <p className="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
@@ -378,7 +379,7 @@ const Page = () => {
                       <img
                         className="w-8 h-8 rounded-full mr-4 avatar"
                         data-tippy-content="Author Name"
-                        src="http://i.pravatar.cc/300"
+                        src="http:/Snapchat-480996321-PhotoRoom.jpg"
                         alt="Avatar of Author"
                       />
                       <p className="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
@@ -419,7 +420,7 @@ const Page = () => {
             <div className="flex w-full items-center font-sans p-8 md:p-24">
               <img
                 className="w-10 h-10 rounded-full mr-4"
-                src="http://i.pravatar.cc/300"
+                src="http:/Snapchat-480996321-PhotoRoom.jpg"
                 alt="Avatar of Author"
               />
               <div className="flex-1">

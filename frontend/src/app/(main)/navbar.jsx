@@ -70,12 +70,7 @@ const Navbar = () => {
             >
               Home
             </a>
-            <a
-              className="font-medium text-white/[.8] hover:text-white sm:py-6"
-              href="#"
-            >
-              Menu
-            </a>
+          
             <a
               className="font-medium text-white/[.8] hover:text-white sm:py-6"
               href="/destination"
