@@ -24,12 +24,16 @@ const Page = () => {
           <div className="container max-w-100 pt-16 md:pt-100 text-center break-normal">
             {/*Title*/}
             <p className="text-white font-extrabold text-3xl md:text-5xl">
-            <img
-                        src="https://images.pexels.com/photos/5533163/pexels-photo-5533163.jpeg?auto=compress&cs=tinysrgb&w=600"
-                        className="h-64 w-full rounded-t pb-6"
-                      />
+            <div style={{ backgroundImage: "url(/C:\Reena\real project\MY-TEM-PROJECT\frontend\public\pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg)" }}>
+ 
+ </div>
             </p>
-            <p className="text-xl md:text-5xl text-black-800">Explore Top Destinations by Region</p>
+           
+            <div class="text-5xl font-extrabold ...">
+  <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-00">
+  Explore Top Destinations by Region
+  </span>
+</div>
           </div>
         </div>
         {/*Container*/}
