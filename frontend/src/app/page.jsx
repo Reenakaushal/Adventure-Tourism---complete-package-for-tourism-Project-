@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from "./page.module.css"
+import classes from "./page.module.css"   
 
 const Page = () => {
   return (
@@ -23,14 +23,13 @@ const Page = () => {
         >
           <div className="container max-w-100 pt-16 md:pt-100 text-center break-normal">
             {/*Title*/}
-            <p className="text-white font-extrabold text-3xl md:text-5xl">
-            <div style={{ backgroundImage: "url(/C:\Reena\real project\MY-TEM-PROJECT\frontend\public\pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg)" }}>
- 
- </div>
+            <p className="text-white image font-extrabold text-3xl md:text-5xl">
+            <div class="bg-[url('/img/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg')]">
+                 </div>
             </p>
            
             <div class="text-5xl font-extrabold ...">
-  <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-00">
+  <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
   Explore Top Destinations by Region
   </span>
 </div>
