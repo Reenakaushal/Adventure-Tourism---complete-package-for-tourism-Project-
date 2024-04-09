@@ -88,6 +88,7 @@ const Navbar = () => {
                 type="button"
                 className="flex items-center w-full text-white/[.8] hover:text-white font-medium"
               >
+                
                 Dropdown
                 <svg
                   className="flex-shrink-0 ms-2 size-4"
