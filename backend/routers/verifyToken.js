@@ -12,7 +12,6 @@ const verifyToken = (req, res, next) => {
 
     // verify token
     try {
-
         jwt.verify(token, process.env.JWT_SECRET, (err, userInfo) => {
             if (err){
                 console.error(err);
@@ -22,7 +21,6 @@ const verifyToken = (req, res, next) => {
                 next();
             }
         });
-
     } catch (err) {
         console.error(err);
         res.status(500).json({ msg: 'Server Error' });

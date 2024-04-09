@@ -4,13 +4,8 @@ import classes from "./page.module.css"
 const Page = () => {
   return (
 
-    <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
-      {/* Grid */}
-
-      {/* End Grid */}
-      <>
-       
-        {/*Header*/}
+    // <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
+    <div>
         <div
           className="w-full m-0 p-0 bg-cover bg-bottom"
           style={{
@@ -18,12 +13,13 @@ const Page = () => {
             boxShadow: 'back',
             height: "60vh",
             maxHeight: 460,
-            
+            backgroundImage: `url('/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg')`
           }}
         >
+          <div className='max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8'>
           <div className="container max-w-100 pt-16 md:pt-100 text-center break-normal">
             {/*Title*/}
-            <p className="text-white image font-extrabold text-3xl md:text-5xl">
+            <p className="text-white font-extrabold text-3xl md:text-5xl">
             <div class="bg-[url('/img/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg')]">
                  </div>
             </p>
@@ -34,7 +30,16 @@ const Page = () => {
   </span>
 </div>
           </div>
-        </div>
+          </div>
+          </div>
+
+      {/* Grid */}
+
+      {/* End Grid */}
+      <>
+       
+        {/*Header*/}
+        {/* </div> */}
         {/*Container*/}
         <div className="container px-4 md:px-0 max-w-6xl mx-auto mt-32">
           <div className="mx-0 sm:mx-6">
