@@ -1,43 +1,42 @@
 import React from 'react'
-import classes from "./page.module.css"   
+import classes from "./page.module.css"
 
 const Page = () => {
   return (
 
     // <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
     <div>
-        <div
-          className="w-full m-0 p-0 bg-cover bg-bottom"
-          style={{
-            backgroundColor: 'white',
-            boxShadow: 'back',
-            height: "60vh",
-            maxHeight: 460,
-            backgroundImage: `url('/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg')`
-          }}
-        >
-          <div className='max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8'>
+      <div
+        className="w-full m-0 p-0 bg-cover bg-bottom"
+        style={{
+          backgroundColor: 'white',
+          boxShadow: 'back',
+          height: "60vh",
+          maxHeight: 460,
+          backgroundImage: `url('/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg')`
+        }}
+      >
+        <div className='max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8'>
           <div className="container max-w-100 pt-16 md:pt-100 text-center break-normal">
             {/*Title*/}
             <p className="text-white font-extrabold text-3xl md:text-5xl">
-            <div class="bg-[url('/img/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg')]">
-                 </div>
+              <div class="bg-[url('/img/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg')]">
+              </div>
             </p>
-           
             <div class="text-5xl font-extrabold ...">
-  <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
-  Explore Top Destinations by Region
-  </span>
-</div>
+              <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+                Explore Top Destinations by Region
+              </span>
+            </div>
           </div>
-          </div>
-          </div>
+        </div>
+      </div>
 
       {/* Grid */}
 
       {/* End Grid */}
       <>
-       
+
         {/*Header*/}
         {/* </div> */}
         {/*Container*/}
@@ -127,16 +126,16 @@ const Page = () => {
                   </div>
                   <div className="w-full md:w-1/3 flex flex-col flex-grow flex-shrink">
                     <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-                      
+
                       <div className="w-full font-bold text-3xl text-gray-900 px-6">
-                      Adventure Activities in Manali
+                        Adventure Activities in Manali
                       </div>
                       <p className="text-gray-800 font-serif text-base px-6 mb-5">
-                      Camping, Trekking, Skiing, Snowboarding, Quad biking, Zorbing, Ziplining, Biking, Rappelling, Paragliding, Downhill Cycling, Jeep Safari ,River Crossing, Angling , Ziplining and many more.
+                        Camping, Trekking, Skiing, Snowboarding, Quad biking, Zorbing, Ziplining, Biking, Rappelling, Paragliding, Downhill Cycling, Jeep Safari ,River Crossing, Angling , Ziplining and many more.
 
-Manali is situated amidst the frosty hilltops of Himalayas, with ravishing sights, delightful cuisine, and a sanctuary and interspersed local markets throughout the town.. But did you know that Manali is a getaway destination for those seeking thrilling sports as well? Skiing is, in fact, one of the most popular adventures in Manali. 
+                        Manali is situated amidst the frosty hilltops of Himalayas, with ravishing sights, delightful cuisine, and a sanctuary and interspersed local markets throughout the town.. But did you know that Manali is a getaway destination for those seeking thrilling sports as well? Skiing is, in fact, one of the most popular adventures in Manali.
 
-Due to its rocky terrain and mountainous region, activities like trekking, hiking, biking, and rock climbing have become current venturesome activities. Due to the various streams of rivers, river rafting and white water rafting have also popularized in the repertoire of adventurous activities in Manali, making it an essential part of Manali tour packages.
+                        Due to its rocky terrain and mountainous region, activities like trekking, hiking, biking, and rock climbing have become current venturesome activities. Due to the various streams of rivers, river rafting and white water rafting have also popularized in the repertoire of adventurous activities in Manali, making it an essential part of Manali tour packages.
                       </p>
                     </div>
                     <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
@@ -167,12 +166,12 @@ Due to its rocky terrain and mountainous region, activities like trekking, hikin
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMEuoy5kTtJoHqXMLNg6FYrNXr-TastDnrvw&s"
                         className="h-64 w-full rounded-t pb-6"
                       />
-                     
+
                       <div className="w-full font-bold text-xl text-gray-900 px-6">
-                      Adventure Activities in Ladakh
+                        Adventure Activities in Ladakh
                       </div>
                       <p className="text-gray-800 font-serif text-base px-6 mb-5">
-                      Ladakh is bordered by the Tibet Autonomous Region to the east, the Indian state of Himachal Pradesh to the south, both the Indian-administered union territory of Jammu and Kashmir and the Pakistan-administered Gilgit-Baltistan to the west, and the southwest corner of Xinjiang across the Karakoram Pass in the far north.
+                        Ladakh is bordered by the Tibet Autonomous Region to the east, the Indian state of Himachal Pradesh to the south, both the Indian-administered union territory of Jammu and Kashmir and the Pakistan-administered Gilgit-Baltistan to the west, and the southwest corner of Xinjiang across the Karakoram Pass in the far north.
                       </p>
                     </a>
                   </div>
@@ -252,7 +251,7 @@ Due to its rocky terrain and mountainous region, activities like trekking, hikin
                         className="w-8 h-8 rounded-full mr-4 avatar"
                         data-tippy-content="Author Name"
                         src="http:/Snapchat-480996321-PhotoRoom.jpg"
-                          alt="Avatar of Author"
+                        alt="Avatar of Author"
                       />
                       <p className="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
                     </div>
