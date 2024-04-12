@@ -57,8 +57,10 @@ const Page = () => {
             <>
               {/* Card Blog */}
               <div className="max-w-[85rem] px-4 py-10 max-w-10xl lg:px-8 lg:py-14 mx-auto">
-                <h1 className={classes.place}>Top Places in Manli</h1>
+                <h1 className={classes.place}>Top Places in Manali</h1>
+   
 
+   
                 <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
                   {/*  Card */}
                   <a
