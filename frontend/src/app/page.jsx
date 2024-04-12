@@ -176,6 +176,7 @@ const Page = () => {
                       </svg>
                     </p>
                   </a>
+                  
                   <a
                     className="group hover:bg-gray-100 rounded-xl p-5 transition-all dark:hover:bg-white/[.05]"
                     href="#"
@@ -510,7 +511,7 @@ const Page = () => {
                         strokeLinecap="round"
                         strokeLinejoin="round"
                       >
-                        <path d="aspect-w-16 aspect-h-10" />
+                        <path d="m9 18 6-6-6-6" />
                       </svg>
                     </p>
                   </a>
@@ -523,11 +524,13 @@ const Page = () => {
                     <div className="aspect-w-16 aspect-h-10">
                       <img
                         className="w-full object-cover rounded-xl"
-                        src="pexels-divyam-chaudhary-19436877.jpg"
+                        src="pexels-florian-grewe-18609986.jpg"
                         alt="Image Description"
                       />
                     </div>
-                    
+                    <h3 className="mt-5 text-xl text-gray-800 dark:text-gray-300 dark:hover:text-white">
+                       <b>Buddhist Temple </b>
+                    </h3>
                     <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800 dark:text-gray-200">
                       {/* Rating */}
   <div className="flex items-center">
@@ -621,7 +624,7 @@ const Page = () => {
                         strokeLinecap="round"
                         strokeLinejoin="round"
                       >
-                        <path d="aspect-w-16 aspect-h-10" />
+                        <path d="m9 18 6-6-6-6" />
                       </svg>
                     </p>
                   </a>
@@ -698,17 +701,19 @@ const Page = () => {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     >
-                      <path d="aspect-w-16 aspect-h-10" />
-                    </svg>
+<path d="m9 18 6-6-6-6" />                
+    </svg>
                   </p>
                 </a>
                 {/* End Card */}
                 {/* Card */}
+        
                 <a
                   className="group hover:bg-gray-100 rounded-xl p-5 transition-all dark:hover:bg-white/[.05]"
                   href="#"
                 >
                   <div className="aspect-w-16 aspect-h-10">
+             
                     <img
                       className="w-full object-cover rounded-xl"
                       src="https://images.unsplash.com/photo-1669739432571-aee1f057c41f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1065&q=80"
@@ -733,8 +738,8 @@ const Page = () => {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     >
-                      <path d="aspect-w-16 aspect-h-10" />
-                    </svg>
+<path d="m9 18 6-6-6-6" />               
+     </svg>
                   </p>
                 </a>
                 {/* End Card */}
@@ -777,8 +782,8 @@ const Page = () => {
                           strokeLinecap="round"
                           strokeLinejoin="round"
                         >
-                          <path d="m9 18 6-6-6-6" />
-                        </svg>
+<path d="m9 18 6-6-6-6" />                   
+     </svg>
                       </p>
                     </div>
                   </div>
