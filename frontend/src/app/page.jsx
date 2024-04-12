@@ -21,7 +21,7 @@ const Page = () => {
               <div className="container max-w-100 pt-16 md:pt-100 text-center break-normal">
                 {/*Title*/}
                 <p className="text-white font-extrabold text-3xl md:text-5xl">
-                  <div class="bg-[url('/img/benjamin-voros-phIFdC6lA4E-unsplash.jpg')]">
+                  <div class=" h-auto max-w-xs bg-[url('/img/benjamin-voros-phIFdC6lA4E-unsplash.jpg')]">
                   </div>
                 </p>
                 <div class="text-5xl font-extrabold ...">
@@ -65,19 +65,98 @@ const Page = () => {
                     className="group hover:bg-gray-100 rounded-xl p-5 transition-all dark:hover:bg-white/[.05]"
                     href="#"
                   >
-                    <div className="aspect-w-16 aspect-h-10">
+                    <div className="w-full object-cover rounded-xl">
                       <img
                         className=" { classes.manali }w-full object-cover rounded-xl"
-                        src="https://images.pexels.com/photos/4851376/pexels-photo-4851376.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        src="manikaran sahib.jpeg"
                         alt="Image Description"
                       />
                     </div>
                     <h3 className="mt-5 text-xl text-gray-800 dark:text-gray-300 dark:hover:text-white">
-                      Manikaran Sahib
+                      <b>  Manikaran Sahib</b>
 
                     </h3>
-                    <h6>Manikaran is a pilgrimage centre for Hindus and Sikhs. The Hindus believe that Manu recreated human life in Manikaran after the flood, making it a sacred area.</h6>
+                    
                     <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800 dark:text-gray-200">
+                      {/* Rating */}
+  <div className="flex items-center">
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-gray-300 hover:text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-600 dark:hover:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+  </div>
+  {/* End Rating */}
                       Learn more
                       <svg
                         className="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
@@ -102,15 +181,93 @@ const Page = () => {
                     <div className="aspect-w-16 aspect-h-10">
                       <img
                         className="w-full object-cover rounded-xl"
-                        src="https://images.pexels.com/photos/18372614/pexels-photo-18372614/free-photo-of-man-with-a-horse-on-a-field-covered-with-snow.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        src="3solang.jpg"
                         alt="Image Description"
                       />
                     </div>
                     <h3 className="mt-5 text-xl text-gray-800 dark:text-gray-300 dark:hover:text-white">
-                      Solang Valley
+                      <b>Solang Valley </b>
                     </h3>
-                    <h6>Snow melts during the summer months starting in May and skiing is then replaced by zorbing (a giant ball with room for 2 people which is rolled down a 200-metre hill), paragliding, parachuting, and horse riding</h6>
                     <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800 dark:text-gray-200">
+                     {/* Rating */}
+  <div className="flex items-center">
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-gray-300 hover:text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-600 dark:hover:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+  </div>
+  {/* End Rating */}
                       Learn more
                       <svg
                         className="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
@@ -140,13 +297,91 @@ const Page = () => {
                       />
                     </div>
                     <h3 className="mt-5 text-xl text-gray-800 dark:text-gray-300 dark:hover:text-white">
-                      Old Manali Snow Point
+                      <b>Old Manali Snow Point </b>
 
                     </h3>
 
-                    <h6>Old Manali Snow Point lies close to the famous Hadimba Devi Temple, is a popular tourist attraction of Manali especially during the winter months when the town receives heavy snowfall.</h6>
 
                     <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800 dark:text-gray-200">
+                    {/* Rating */}
+  <div className="flex items-center">
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-gray-300 hover:text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-600 dark:hover:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+  </div>
+  {/* End Rating */}
                       Learn more
                       <svg
                         className="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
@@ -172,16 +407,94 @@ const Page = () => {
                   >
                     <div className="aspect-w-16 aspect-h-10">
                       <img
-                        className="w-full object-cover rounded-xl"
-                        src="https://media2.thrillophilia.com/images/photos/000/236/657/original/1587537722_fi.jpg?gravity=center&width=1280&height=642&crop=fill&quality=auto&fetch_format=auto&flags=strip_profile&format=jpg&sign_url=true"
+                        className=" w-full object-cover rounded-xl"
+                        src="https://images.pexels.com/photos/19727342/pexels-photo-19727342/free-photo-of-cold-snow-dawn-landscape.jpeg?auto=compress&cs=tinysrgb&w=600"
                         alt="Image Description"
                       />
                     </div>
                     <h3 className="mt-5 text-xl text-gray-800 dark:text-gray-300 dark:hover:text-white">
-                      Rohtang Pass
+                       <b>Rohtang Pass </b>
                     </h3>
-                    <h6>Rohtang Pass is only open for a few months each year, from May to November, due to heavy snowfall that blocks the pass during the winter months. as it offers a wide range of adventure activities and stunning natural beauty.</h6>
                     <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800 dark:text-gray-200">
+                      {/* Rating */}
+  <div className="flex items-center">
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-gray-300 hover:text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-600 dark:hover:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+  </div>
+  {/* End Rating */}
                       Learn more
                       <svg
                         className="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
@@ -208,15 +521,91 @@ const Page = () => {
                     <div className="aspect-w-16 aspect-h-10">
                       <img
                         className="w-full object-cover rounded-xl"
-                        src="https://images.unsplash.com/photo-1669739432571-aee1f057c41f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1065&q=80"
+                        src="pexels-divyam-chaudhary-19436877.jpg"
                         alt="Image Description"
                       />
                     </div>
-                    <h3 className="mt-5 text-xl text-gray-800 dark:text-gray-300 dark:hover:text-white">
-                      Living Spaces creates a unified experience across the customer
-                      journey.
-                    </h3>
+                    
                     <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800 dark:text-gray-200">
+                      {/* Rating */}
+  <div className="flex items-center">
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-gray-300 hover:text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-600 dark:hover:text-yellow-500"
+    >
+      <svg
+        className="flex-shrink-0 size-5"
+        xmlns="http://www.w3.org/2000/svg"
+        width={16}
+        height={16}
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+      </svg>
+    </button>
+  </div>
+  {/* End Rating */}
                       Learn more
                       <svg
                         className="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
