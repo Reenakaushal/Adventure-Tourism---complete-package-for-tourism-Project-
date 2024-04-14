@@ -65,11 +65,11 @@ const Page = () => {
                   {/*  Card */}
                   <a
                     className="group hover:bg-gray-100 rounded-xl p-5 transition-all dark:hover:bg-white/[.05]"
-                    href="/manali "
+                    href="/manali"
                   >
                     <div className="w-full object-cover rounded-xl">
                       <img
-                        className=" { classes.manali }w-full object-cover rounded-xl"
+                        className="w-full object-cover rounded-xl"
                         src="manikaran sahib.jpeg"
                         alt="Image Description"
                       />

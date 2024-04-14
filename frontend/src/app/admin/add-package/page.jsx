@@ -1,7 +1,38 @@
-'use client'
-import React from 'react'
-
+'use client';
+import { useFormik } from 'formik';
+import React from 'react';
 const AddPackage = () => {
+
+  const AddPackage = useFormik({
+    initialValues: {
+      email: '',
+      password: '',
+    },
+    onSubmit: values => {
+      console.log(values);
+
+      fetch(`${process.env.NEXT_PUBLIC_API_URL}/user/authenticate`, {
+        method: 'POST',
+        body: JSON.stringify(values),
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      })
+      .then((response) => {
+        console.log(response.status);
+        if(response.status === 200){
+          response.json()
+          .then(data => {
+            console.log(data);
+          })
+        }
+      }).catch((err) => {
+        console.log(err);
+      });
+
+    }
+    
+  })
   return (
     <form className="max-w-sm mx-auto">
     <div className="mb-5">
@@ -44,7 +75,7 @@ const AddPackage = () => {
         type="password"
         id="repeat-password"
         className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
-        required=""
+        required=" "
       />
     </div>
     <div className="flex items-start mb-5">
@@ -78,4 +109,4 @@ const AddPackage = () => {
   )
 }
 
-export default AddPackage
+export default AddPackage;
