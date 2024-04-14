@@ -1,6 +1,8 @@
 import React from 'react'
-import manali from './manali'
 import classes from './page.module.css'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import manali from './manali';
+
 const Page = () => {
   return (
 
@@ -1523,5 +1525,6 @@ const Page = () => {
     </>
   )
 }
+
 
 export default Page
