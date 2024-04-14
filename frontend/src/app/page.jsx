@@ -1,6 +1,6 @@
 import React from 'react'
-import classes from './page.module.css';
-import Container from 'postcss/lib/container';
+import manali from './manali'
+import classes from './page.module.css'
 const Page = () => {
   return (
 
@@ -39,7 +39,7 @@ const Page = () => {
       </div>
 
       {/*Container*/}
-      <div className="container px-4 md:px-0 max-w-17xl mx-auto mt-32">
+      <div className= " container px-4 md:px-0 max-w-17xl mx-auto mt-32">
         <div className="mx-0 sm:mx-6">
           {/*Nav*/}
           <nav className="mt-0 w-full">
@@ -65,7 +65,7 @@ const Page = () => {
                   {/*  Card */}
                   <a
                     className="group hover:bg-gray-100 rounded-xl p-5 transition-all dark:hover:bg-white/[.05]"
-                    href="#"
+                    href="/manali "
                   >
                     <div className="w-full object-cover rounded-xl">
                       <img
