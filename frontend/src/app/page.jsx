@@ -1,7 +1,6 @@
 import React from 'react'
 import classes from './page.module.css'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import manali from './manali';
+import Link from 'next/link';
 
 const Page = () => {
   return (
@@ -41,7 +40,7 @@ const Page = () => {
       </div>
 
       {/*Container*/}
-      <div className= " container px-4 md:px-0 max-w-17xl mx-auto mt-32">
+      <div className=" container px-4 md:px-0 max-w-17xl mx-auto mt-32">
         <div className="mx-0 sm:mx-6">
           {/*Nav*/}
           <nav className="mt-0 w-full">
@@ -60,12 +59,12 @@ const Page = () => {
               {/* Card Blog */}
               <div className="max-w-[85rem] px-4 py-10 max-w-10xl lg:px-8 lg:py-14 mx-auto">
                 <h1 className={classes.place}>Top Places in Manali</h1>
-   
 
-   
+
+
                 <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
                   {/*  Card */}
-                  <a
+                  <Link
                     className="group hover:bg-gray-100 rounded-xl p-5 transition-all dark:hover:bg-white/[.05]"
                     href="/manali"
                   >
@@ -80,87 +79,87 @@ const Page = () => {
                       <b>  Manikaran Sahib</b>
 
                     </h3>
-                    
+
                     <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800 dark:text-gray-200">
                       {/* Rating */}
-  <div className="flex items-center">
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-gray-300 hover:text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-600 dark:hover:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-  </div>
-  {/* End Rating */}
+                      <div className="flex items-center">
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-gray-300 hover:text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-600 dark:hover:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                      </div>
+                      {/* End Rating */}
                       Learn more
                       <svg
                         className="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
@@ -177,8 +176,8 @@ const Page = () => {
                         <path d="m9 18 6-6-6-6" />
                       </svg>
                     </p>
-                  </a>
-                  
+                  </Link>
+
                   <a
                     className="group hover:bg-gray-100 rounded-xl p-5 transition-all dark:hover:bg-white/[.05]"
                     href="#"
@@ -194,85 +193,85 @@ const Page = () => {
                       <b>Solang Valley </b>
                     </h3>
                     <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800 dark:text-gray-200">
-                     {/* Rating */}
-  <div className="flex items-center">
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-gray-300 hover:text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-600 dark:hover:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-  </div>
-  {/* End Rating */}
+                      {/* Rating */}
+                      <div className="flex items-center">
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-gray-300 hover:text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-600 dark:hover:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                      </div>
+                      {/* End Rating */}
                       Learn more
                       <svg
                         className="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
@@ -308,85 +307,85 @@ const Page = () => {
 
 
                     <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800 dark:text-gray-200">
-                    {/* Rating */}
-  <div className="flex items-center">
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-gray-300 hover:text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-600 dark:hover:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-  </div>
-  {/* End Rating */}
+                      {/* Rating */}
+                      <div className="flex items-center">
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-gray-300 hover:text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-600 dark:hover:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                      </div>
+                      {/* End Rating */}
                       Learn more
                       <svg
                         className="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
@@ -418,88 +417,88 @@ const Page = () => {
                       />
                     </div>
                     <h3 className="mt-5 text-xl text-gray-800 dark:text-gray-300 dark:hover:text-white">
-                       <b>Rohtang Pass </b>
+                      <b>Rohtang Pass </b>
                     </h3>
                     <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800 dark:text-gray-200">
                       {/* Rating */}
-  <div className="flex items-center">
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-gray-300 hover:text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-600 dark:hover:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-  </div>
-  {/* End Rating */}
+                      <div className="flex items-center">
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-gray-300 hover:text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-600 dark:hover:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                      </div>
+                      {/* End Rating */}
                       Learn more
                       <svg
                         className="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
@@ -531,88 +530,88 @@ const Page = () => {
                       />
                     </div>
                     <h3 className="mt-5 text-xl text-gray-800 dark:text-gray-300 dark:hover:text-white">
-                       <b>Buddhist Temple </b>
+                      <b>Buddhist Temple </b>
                     </h3>
                     <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800 dark:text-gray-200">
                       {/* Rating */}
-  <div className="flex items-center">
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-    <button
-      type="button"
-      className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-gray-300 hover:text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-600 dark:hover:text-yellow-500"
-    >
-      <svg
-        className="flex-shrink-0 size-5"
-        xmlns="http://www.w3.org/2000/svg"
-        width={16}
-        height={16}
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    </button>
-  </div>
-  {/* End Rating */}
+                      <div className="flex items-center">
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-gray-300 hover:text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-600 dark:hover:text-yellow-500"
+                        >
+                          <svg
+                            className="flex-shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={16}
+                            height={16}
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                          </svg>
+                        </button>
+                      </div>
+                      {/* End Rating */}
                       Learn more
                       <svg
                         className="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
@@ -703,19 +702,19 @@ const Page = () => {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     >
-<path d="m9 18 6-6-6-6" />                
-    </svg>
+                      <path d="m9 18 6-6-6-6" />
+                    </svg>
                   </p>
                 </a>
                 {/* End Card */}
                 {/* Card */}
-        
+
                 <a
                   className="group hover:bg-gray-100 rounded-xl p-5 transition-all dark:hover:bg-white/[.05]"
                   href="#"
                 >
                   <div className="aspect-w-16 aspect-h-10">
-             
+
                     <img
                       className="w-full object-cover rounded-xl"
                       src="https://images.unsplash.com/photo-1669739432571-aee1f057c41f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1065&q=80"
@@ -740,8 +739,8 @@ const Page = () => {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     >
-<path d="m9 18 6-6-6-6" />               
-     </svg>
+                      <path d="m9 18 6-6-6-6" />
+                    </svg>
                   </p>
                 </a>
                 {/* End Card */}
@@ -784,8 +783,8 @@ const Page = () => {
                           strokeLinecap="round"
                           strokeLinejoin="round"
                         >
-<path d="m9 18 6-6-6-6" />                   
-     </svg>
+                          <path d="m9 18 6-6-6-6" />
+                        </svg>
                       </p>
                     </div>
                   </div>
