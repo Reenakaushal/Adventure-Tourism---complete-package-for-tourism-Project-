@@ -1,12 +1,14 @@
 import React from 'react'
 import classes from './page.module.css'
 import Link from 'next/link';
+import Navbar from './(main)/navbar';
 
 const Page = () => {
   return (
 
     <>
-      <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
+      <Navbar />
+      <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div>
           <div
             className="w-full m-0 p-0 bg-cover bg-bottom"
