@@ -1,12 +1,15 @@
 import React from 'react'
 import classes from './page.module.css'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import manali from './manali';
+import manali from './manali.';
 
 const Page = () => {
+  
   return (
 
     <>
+
+    
       <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
         <div>
           <div
