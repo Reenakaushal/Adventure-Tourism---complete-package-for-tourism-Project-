@@ -5,5 +5,4 @@ const AddPackage = () => {
     <div>AddPackage</div>
   )
 }
-
-export default AddPackage
+export default AddPackage;
