@@ -11,40 +11,14 @@ const Page = () => {
       <Navbar />
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div>
-          <div
-            className="w-full m-0 p-0 bg-cover bg-bottom"
-            style={{
-              backgroundColor: 'white',
-              boxShadow: 'back',
-              height: "60vh",
-              maxHeight: 460,
-              backgroundImage: `url('/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg')`
-            }}
-          >
-            <div className='max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8'>
-              <div className="container max-w-100 pt-16 md:pt-100 text-center break-normal">
-                {/*Title*/}
-                <p className="text-white font-extrabold text-3xl md:text-5xl">
-                  <div class=" h-auto max-w-xs bg-[url('/img/benjamin-voros-phIFdC6lA4E-unsplash.jpg')]">
-                  </div>
-                </p>
-                <div class="text-5xl font-extrabold ...">
-
-                  <span className="bg-clip-text text-transparent bg-gradient-to-r   hero-title">
-                    <p className={classes.yoyo} >
-                      ADVENTURE TOURISM COMPLETE PACKAGE FOR TOURISM
-                    </p>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
+       
+          
         </div>
       </div>
 
       {/*Container*/}
-      <div className=" container px-4 md:px-0 max-w-17xl mx-auto mt-32">
-        <div className="mx-0 sm:mx-6">
+      <div className=" container px-4 md:px-0 max-w-17xl mx-auto mt-32 ">
+        <div className=" relative bg-yellow-50 dark:bg-gray-900 mx-0 sm:mx-6">
           {/*Nav*/}
           <nav className="mt-0 w-full">
             <div className="container mx-auto flex items-center">

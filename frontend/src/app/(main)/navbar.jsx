@@ -3,199 +3,248 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-purple-950 text-sm py-3 sm:py-0">
-      <nav
-        className="relative max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
-        aria-label="Global"
-      >
-        <div className="flex items-center justify-between">
-          <a
-            className="flex-none text-xl font-semibold text-white"
-            href="#"
-
-          >
-            Tourism
-          </a>
-          <div className="sm:hidden">
-            <button
-              type="button"
-              className="hs-collapse-toggle size-9 flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-white/20 text-white hover:border-white/40 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-              data-hs-collapse="#navbar-collapse-with-animation"
-              aria-controls="navbar-collapse-with-animation"
-              aria-label="Toggle navigation"
-            >
-              <svg
-                className="hs-collapse-open:hidden flex-shrink-0 size-4"
-                xmlns="http://www.w3.org/2000/svg"
-                width={24}
-                height={24}
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={2}
-                strokeLinecap="round"
-                strokeLinejoin="round"
+    <>
+    <nav className="fixed z-10 w-full bg-white dark:bg-transparent md:absolute md:bg-transparent">
+      <div className="container m-auto px-2 md:px-12 lg:px-7">
+        <div className="flex flex-wrap items-center justify-between py-3 gap-6 md:py-4 md:gap-0">
+          <input
+            type="checkbox"
+            name="toggle_nav"
+            id="toggle_nav"
+            className="peer hidden"
+          />
+          <div className="w-full px-6 flex justify-between lg:w-max md:px-0 z-30">
+            <a href="#" aria-label="logo" className="flex space-x-2 items-center">
+             
+              <span className="text-2xl font-bold text-yellow-900 dark:text-white">
+                ADVANTURE{" "}
+                <span className="text-yellow-700 dark:text-yellow-300">
+                  PACKAGES
+                </span>
+              </span>
+            </a>
+            <div className="flex items-center lg:hidden max-h-10">
+              <label
+                role="button"
+                htmlFor="toggle_nav"
+                aria-label="humburger"
+                id="hamburger"
+                className="relative w-10 h-auto p-2"
               >
-                <line x1={3} x2={21} y1={6} y2={6} />
-                <line x1={3} x2={21} y1={12} y2={12} />
-                <line x1={3} x2={21} y1={18} y2={18} />
-              </svg>
-              <svg
-                className="hs-collapse-open:block hidden flex-shrink-0 size-4"
-                xmlns="http://www.w3.org/2000/svg"
-                width={24}
-                height={24}
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={2}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M18 6 6 18" />
-                <path d="m6 6 12 12" />
-              </svg>
-            </button>
+                <div
+                  id="line"
+                  className="m-auto h-0.5 w-6 rounded bg-yellow-900 dark:bg-white transition duration-300"
+                />
+                <div
+                  id="line2"
+                  className="m-auto mt-2 h-0.5 w-6 rounded bg-yellow-900 dark:bg-white transition duration-300"
+                ></div>
+              </label>
+            </div>
           </div>
-        </div>
-        <div
-          id="navbar-collapse-with-animation"
-          className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block"
-        >
-          <div className="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7">
-            <a
-              className="font-medium text-white sm:py-6"
-              href="http://localhost:3000/"
-              aria-current="page"
+          <label
+            role="button"
+            htmlFor="toggle_nav"
+            className="hidden peer-checked:block fixed w-full h-full left-0 top-0 z-10 bg-yellow-200 dark:bg-black dark:bg-opacity-80 bg-opacity-30 backdrop-blur backdrop-filter"
+          />
+          <div className="hidden peer-checked:flex w-full flex-col lg:flex lg:flex-row justify-end z-30 items-center gap-y-6 p-6 rounded-xl bg-white dark:bg-gray-900 lg:gap-y-0 lg:p-0 md:flex-nowrap lg:bg-transparent lg:w-7/12">
+            <div className="text-gray-600 lg:pr-4 w-full">
+              <ul
+                className="tracking-wide font-medium  text-sm 
+                    flex flex-col gap-y-6 lg:gap-y-0 lg:flex-row w-full"
+              >
+                 <li>
+                  <a
+                    href="/Home"
+                    className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
+                  >
+                    <span>Home</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/Destination"
+                    className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
+                  >
+                    <span>Destination</span>
+                    
+
+
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="Hotel"
+                    className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
+                  >
+                    <span>HOTELS </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="thinktodo"
+                    className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
+                  >
+                    <span>THINK TO DO</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="packages"
+                    className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
+                  >
+                    <span>PACKAGES</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            
+            <div
+              className="w-full min-w-max space-y-2 
+                border-yellow-200 lg:space-y-0 sm:w-max lg:border-l dark:lg:border-gray-700"
             >
-              Home
-            </a>
-          
-            <a
-              className="font-medium text-white/[.8] hover:text-white sm:py-6"
-              href="/destination"
-            >
-              Destination
-            </a>
-            <a
-              className="font-medium text-white/[.8] hover:text-white sm:py-6"
-              href="/contact"
-            >
-              Contact
-            </a>
-            <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
+            <button
+                type="button"
+                title="Start buying"
+                className="w-full py-3 px-6 text-center rounded-full transition active:bg-yellow-200 dark:active:bg-gray-700 dark:focus:bg-gray-800 focus:bg-yellow-100 sm:w-max"
+              >
+                <span className="block text-yellow-800 dark:text-white font-semibold text-sm">
+                  Sign up
+                </span>
+              </button>
+            
               <button
                 type="button"
-                className="flex items-center w-full text-white/[.8] hover:text-white font-medium"
+                title="Start buying"
+                className="w-full py-3 px-6 text-center rounded-full transition bg-yellow-300 hover:bg-yellow-100 active:bg-yellow-400 focus:bg-yellow-300 sm:w-max"
               >
-                
-                Dropdown
-                <svg
-                  className="flex-shrink-0 ms-2 size-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={24}
-                  height={24}
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="m6 9 6 6 6-6" />
-                </svg>
+                <span className="block text-yellow-900 font-semibold text-sm">
+                  Login
+                </span>
               </button>
-              <div className="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden z-10 bg-white sm:shadow-md rounded-lg p-2 dark:bg-gray-800 sm:dark:border dark:border-gray-700 dark:divide-gray-700 before:absolute top-full sm:border before:-top-5 before:start-0 before:w-full before:h-5">
-                <a
-                  className="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                  href="/about"
-                >
-                  About
-                </a>
-                <div className="hs-dropdown relative [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
-                  <button
-                    type="button"
-                    className="w-full flex justify-between items-center text-sm text-gray-800 rounded-lg py-2 px-3 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                  >
-                    Sub Menu
-                    <svg
-                      className="sm:-rotate-90 flex-shrink-0 ms-2 size-4"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={24}
-                      height={24}
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth={2}
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="m6 9 6 6 6-6" />
-                    </svg>
-                  </button>
-                  <div className="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden z-10 sm:mt-2 bg-white sm:shadow-md rounded-lg p-2 dark:bg-gray-800 sm:dark:border dark:border-gray-700 dark:divide-gray-700 before:absolute sm:border before:-end-5 before:top-0 before:h-full before:w-5 top-0 end-full !mx-[10px]">
-                    <a
-                      className="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                      href="#"
-                    >
-                      About
-                    </a>
-                    <a
-                      className="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                      href="#"
-                    >
-                      Downloads
-                    </a>
-                    <a
-                      className="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                      href="#"
-                    >
-                      Team Account
-                    </a>
-                  </div>
-                </div>
-                <a
-                  className="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                  href="/downloads"
-                >
-                  Downloads
-                </a>
-                <a
-                  className="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                  href="#"
-                >
-                  Team Account
-                </a>
-              </div>
+
             </div>
-            <a
-              className="flex items-center gap-x-2 font-medium text-white/[.8] hover:text-white sm:border-s sm:border-white/[.3] sm:my-6 sm:ps-6"
-              href="/login"
-            >
-              <svg
-                className="flex-shrink-0 size-4"
-                xmlns="http://www.w3.org/2000/svg"
-                width={24}
-                height={24}
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={2}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
-                <circle cx={12} cy={7} r={4} />
-              </svg>
-              Log in
-              
-            </a>
-            
           </div>
         </div>
-      </nav>
-    </header>
-  )
+      </div>
+    </nav>
+    <div className="relative bg-yellow-50 dark:bg-gray-900">
+      <div className="container m-auto px-6 pt-32 m:px-12 lg:pt-[4.8rem] lg:px-7">
+        <div className="flex items-center flex-wrap px-2 ms:px-0">
+        <div className="ml-auto -mb-14 lg:-mx-2 lg:w-4/12">
+            <img
+              src="ad.png"
+              className="relative w-full h-auto"
+              alt="food illustration"
+              loading="lazy"
+              tyle = {{margin:125, height:200,}}
+            />
+          </div>
+          <div className="relative lg:w-6/12 lg:-mx-2 gap-y-4 lg:py-24 xl:py-32" style = {{margin:125}} >
+            
+            <h1 className="font-bold text-4xl text-yellow-900 dark:text-yellow-50 md:text-5xl  lg:w-10/12">
+            Adventure Tourism Complete Package For Tourism
+            </h1>
+            <form action="" className="w-full mt-12">
+              <div className="relative flex p-1 rounded-full bg-white dark:bg-gray-800 dark:border-gray-600 border border-yellow-200 shadow-md md:p-2">
+                <div
+                  id="categories"
+                  className="hidden p-3 rounded-full bg-transparent w-80 relative md:p-4 md:flex justify-between items-center select-none"
+                >
+                  <input
+                    type="text"
+                    name="catName"
+                    id="catName"
+                    defaultValue="Places"
+                    className="pl-3 w-full bg-white text-base font-medium cursor-pointer dark:bg-transparent dark:text-gray-50"
+                    readOnly=""
+                  />
+                  <input
+                    type="checkbox"
+                    name="toggleLstCat"
+                    id="toggleLstCat"
+                    className="peer hidden outline-none"
+                  />
+                  <label
+                    role="button"
+                    htmlFor="toggleLstCat"
+                    className="absolute top-0 left-0 w-full h-full"
+                  />
+                  <span className="min-w-max">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5 fill-gray-700 dark:fill-gray-200"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                  <div
+                    id="categorieLst"
+                    className="absolute transition-all duration-500 ease-in-out translate-y-10 opacity-0 invisible peer-checked:opacity-100 peer-checked:visible peer-checked:translate-y-1 top-full left-0 w-full bg-white border border-yellow-200 shadow-md rounded-lg py-2"
+                  >
+                    <ul className="flex flex-col w-full">
+                      <li className="cursor-pointer transition hover:bg-gray-100 hover:bg-opacity-80 flex px-5 py-2">
+                        Delhi
+                      </li>
+                      <li className="cursor-pointer transition hover:bg-gray-100 hover:bg-opacity-80 flex px-5 py-2">
+                        Ladakh
+                      </li>
+                      <li className="cursor-pointer transition hover:bg-gray-100 hover:bg-opacity-80 flex px-5 py-2">
+                        Manali
+                      </li>
+                      <li className="cursor-pointer transition hover:bg-gray-100 hover:bg-opacity-80 flex px-5 py-2">
+                        Pune
+                      </li>
+                      <li className="cursor-pointer transition hover:bg-gray-100 hover:bg-opacity-80 flex px-5 py-2">
+                        Jaiypur
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <input
+                  placeholder="Enter your place"
+                  className="w-full p-4 rounded-full outline-none bg-transparent dark:text-white dark:placeholder-gray-300"
+                  type="text"
+                />
+                <button
+                  type="button"
+                  title="Start buying"
+                  className="ml-auto py-3 px-6 rounded-full text-center transition bg-gradient-to-b from-yellow-200 to-yellow-300 hover:to-red-300 active:from-yellow-400 focus:from-red-400 md:px-12"
+                >
+                  <span className="hidden text-yellow-900 font-semibold md:block">
+                    Search
+                  </span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-5 mx-auto text-yellow-900 md:hidden"
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                  </svg>
+                </button>
+              </div>
+            </form>
+            <p className="mt-8 text-gray-700 dark:text-gray-200 lg:w-10/12">
+              Sit amet consectetur adipisicing elit.{" "}
+              <a href="#" className="text-yellow-700 dark:text-yellow-300">
+                connection
+              </a>{" "}
+              It's no secret that travel blogging is one of the most popular types of digital content. So if you're starting a new blog, or are looking for fresh ideas to refresh your current ones.
+            </p>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  </>
+  )  
 }
 
 export default Navbar
