@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 
+
 const Navbar = () => {
   return (
     <>
@@ -82,7 +83,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    href="thinktodo"
+                    href="/thinktodo"
                     className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
                   >
                     <span>THINK TO DO</span>
@@ -90,7 +91,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    href="packages"
+                    href="/packages"
                     className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
                   >
                     <span>PACKAGES</span>
@@ -108,9 +109,16 @@ const Navbar = () => {
                 title="Start buying"
                 className="w-full py-3 px-6 text-center rounded-full transition active:bg-yellow-200 dark:active:bg-gray-700 dark:focus:bg-gray-800 focus:bg-yellow-100 sm:w-max"
               >
-                <span className="block text-yellow-800 dark:text-white font-semibold text-sm">
+                  <a
+                    href="/signup"
+                    className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
+                  >
+
+                  <span className="block text-yellow-800 dark:text-white font-semibold text-sm">
                   Sign up
                 </span>
+                  </a>
+           
               </button>
             
               <button
@@ -118,9 +126,15 @@ const Navbar = () => {
                 title="Start buying"
                 className="w-full py-3 px-6 text-center rounded-full transition bg-yellow-300 hover:bg-yellow-100 active:bg-yellow-400 focus:bg-yellow-300 sm:w-max"
               >
+                
+                <a
+                    href="/login"
+                    className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
+                  >
                 <span className="block text-yellow-900 font-semibold text-sm">
                   Login
                 </span>
+                </a>
               </button>
 
             </div>
