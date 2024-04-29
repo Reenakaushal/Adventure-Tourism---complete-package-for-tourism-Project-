@@ -56,7 +56,7 @@ const Navbar = () => {
               >
                  <li>
                   <a
-                    href="/Home"
+                    href="/home"
                     className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
                   >
                     <span>Home</span>
