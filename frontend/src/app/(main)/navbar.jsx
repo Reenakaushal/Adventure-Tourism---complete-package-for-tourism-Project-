@@ -18,7 +18,7 @@ const Navbar = () => {
             <a href="#" aria-label="logo" className="flex space-x-2 items-center">
              
               <span className="text-2xl font-bold text-yellow-900 dark:text-white">
-                ADVANTURE{" "}
+                ADVENTURE{" "}
                 <span className="text-yellow-700 dark:text-yellow-300">
                   PACKAGES
                 </span>
@@ -59,7 +59,7 @@ const Navbar = () => {
                     href="/home"
                     className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
                   >
-                    <span>Home</span>
+                    <span>HOME</span>
                   </a>
                 </li>
                 <li>
@@ -67,7 +67,7 @@ const Navbar = () => {
                     href="/Destination"
                     className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
                   >
-                    <span>Destination</span>
+                    <span>DESTINATION</span>
                     
 
 
@@ -75,7 +75,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    href="Hotel"
+                    href="/Hotel"
                     className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
                   >
                     <span>HOTELS </span>
