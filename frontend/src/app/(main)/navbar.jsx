@@ -68,9 +68,7 @@ const Navbar = () => {
                     className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
                   >
                     <span>DESTINATION</span>
-                    
-
-
+                
                   </a>
                 </li>
                 <li>
@@ -81,20 +79,37 @@ const Navbar = () => {
                     <span>HOTELS </span>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="/thinktodo"
                     className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
                   >
                     <span>THINK TO DO</span>
+                    
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
                     href="/packages"
                     className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
                   >
                     <span>PACKAGES</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/contact"
+                    className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
+                  >
+                    <span>CONTACT</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/about"
+                    className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
+                  >
+                    <span>ABOUT</span>
                   </a>
                 </li>
               </ul>
