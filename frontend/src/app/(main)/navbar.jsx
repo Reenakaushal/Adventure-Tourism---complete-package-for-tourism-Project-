@@ -90,7 +90,7 @@ const Navbar = () => {
                 </li> */}
                 <li>
                   <a
-                    href="/packages"
+                    href="/search"
                     className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
                   >
                     <span>PACKAGES</span>

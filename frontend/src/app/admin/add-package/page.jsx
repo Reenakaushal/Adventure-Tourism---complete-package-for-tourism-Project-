@@ -1,6 +1,7 @@
 'use client';
 import { useFormik } from 'formik';
 import React from 'react';
+import toast from 'react-hot-toast';
 const AddPackage = () => {
 
   const packageForm = useFormik({
@@ -27,10 +28,14 @@ const AddPackage = () => {
             response.json()
               .then(data => {
                 console.log(data);
+                toast.success('Package added successfully');
               })
+          } else {
+            toast.error('Failed to add package');
           }
         }).catch((err) => {
           console.log(err);
+          toast.error('Failed to add package');
         });
 
     }
