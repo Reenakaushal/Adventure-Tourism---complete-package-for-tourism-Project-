@@ -1,15 +1,36 @@
 'use client'
-import React from 'react'
+import { useParams } from 'next/navigation'
+import React, { useEffect, useState } from 'react'
 
 
 const PackageDetails = () => {
-  return (
-    <div>  
 
-<>
-  {/* Blog Article */}
-  <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
-    <div className="grid lg:grid-cols-3 gap-y-8 lg:gap-y-0 lg:gap-x-6">
+  const { id } = useParams();
+  const [packageData, setPackageData] = useState(null);
+
+  const fetchPackageDetails = () => {
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/package/getbyid/${id}`)
+      .then((response) => {
+        return response.json()
+      })
+      .then((data) => {
+        console.log(data);
+        setPackageData(data);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }
+
+  useEffect(() => {
+    fetchPackageDetails();
+  }, [])
+
+  const displayPackageDetails = () => {
+    if(packageData === null) {
+      return <h2>Loading...</h2>
+    }
+    return <div className="grid lg:grid-cols-3 gap-y-8 lg:gap-y-0 lg:gap-x-6">
       {/* Content */}
       <div className="lg:col-span-2">
         <div className="py-8 lg:pe-8">
@@ -34,7 +55,7 @@ const PackageDetails = () => {
               </svg>
             </a>
             <h2 className="text-3xl font-bold lg:text-5xl dark:text-white">
-              Announcing a free plan for small teams
+              {packageData.name}
             </h2>
             <div className="flex items-center gap-x-5">
               <a
@@ -391,7 +412,7 @@ const PackageDetails = () => {
                 Reena Kaushal
               </h5>
               <p className="text-sm text-gray-500 dark:text-neutral-500">
-               Adventure
+                Adventure
               </p>
             </a>
             <div className="grow">
@@ -478,9 +499,18 @@ const PackageDetails = () => {
       </div>
       {/* End Sidebar */}
     </div>
-  </div>
-  {/* End Blog Article */}
-</>
+  }
+
+  return (
+    <div>
+
+      <>
+        {/* Blog Article */}
+        <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
+          {displayPackageDetails()}
+        </div>
+        {/* End Blog Article */}
+      </>
 
 
     </div>
