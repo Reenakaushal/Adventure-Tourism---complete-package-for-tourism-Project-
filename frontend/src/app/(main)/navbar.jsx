@@ -54,12 +54,12 @@ const Navbar = () => {
                 className="tracking-wide font-medium  text-sm 
                     flex flex-col gap-y-6 lg:gap-y-0 lg:flex-row w-full"
               >
-                 <li>
+               <li>
                   <a
                     href="/home"
                     className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
                   >
-                    <span>HOME</span>
+                    <span>Home</span>
                   </a>
                 </li>
                 <li>
