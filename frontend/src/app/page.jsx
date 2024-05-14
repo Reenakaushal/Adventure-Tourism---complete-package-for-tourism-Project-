@@ -144,587 +144,391 @@ const Page = () => {
             </div>
           </nav>
 
+          <section className="bg-gray-900 text-white">
+            <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+              <div className="mx-auto max-w-lg text-center">
+                <h2 className="text-3xl font-bold sm:text-4xl">Kickstart your marketing</h2>
+
+                <p className="mt-4 text-gray-300">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aliquam doloribus
+                  nesciunt eos fugiat. Vitae aperiam fugit consequuntur saepe laborum.
+                </p>
+              </div>
+
+              <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <a
+                  className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                  href="#"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-10 text-pink-500"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                    <path
+                      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                    />
+                  </svg>
+
+                  <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+
+                  <p className="mt-1 text-sm text-gray-300">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
+                    distinctio alias voluptatum blanditiis laudantium.
+                  </p>
+                </a>
+
+                <a
+                  className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                  href="#"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-10 text-pink-500"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                    <path
+                      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                    />
+                  </svg>
+
+                  <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+
+                  <p className="mt-1 text-sm text-gray-300">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
+                    distinctio alias voluptatum blanditiis laudantium.
+                  </p>
+                </a>
+
+                <a
+                  className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                  href="#"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-10 text-pink-500"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                    <path
+                      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                    />
+                  </svg>
+
+                  <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+
+                  <p className="mt-1 text-sm text-gray-300">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
+                    distinctio alias voluptatum blanditiis laudantium.
+                  </p>
+                </a>
+
+                <a
+                  className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                  href="#"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-10 text-pink-500"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                    <path
+                      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                    />
+                  </svg>
+
+                  <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+
+                  <p className="mt-1 text-sm text-gray-300">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
+                    distinctio alias voluptatum blanditiis laudantium.
+                  </p>
+                </a>
+
+                <a
+                  className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                  href="#"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-10 text-pink-500"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                    <path
+                      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                    />
+                  </svg>
+
+                  <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+
+                  <p className="mt-1 text-sm text-gray-300">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
+                    distinctio alias voluptatum blanditiis laudantium.
+                  </p>
+                </a>
+
+                <a
+                  className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                  href="#"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-10 text-pink-500"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                    <path
+                      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                    />
+                  </svg>
+
+                  <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+
+                  <p className="mt-1 text-sm text-gray-300">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
+                    distinctio alias voluptatum blanditiis laudantium.
+                  </p>
+                </a>
+              </div>
+
+              <div className="mt-12 text-center">
+                <a
+                  href="#"
+                  className="inline-block rounded bg-pink-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-pink-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                >
+                  Get Started Today
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <>
+  {/* Card Grid */}
+  <div className="py-12 grid grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-12">
+    {/* Card */}
+ 
+    {/* End Card */}
+    {/* Card */}
+  
+    {/* End Card */}
+    {/* Card */}
+    <a className="group block" href="#">
+      <div className="aspect-w-16 aspect-h-12 overflow-hidden bg-gray-100 rounded-2xl dark:bg-neutral-800">
+        <img
+          className="group-hover:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl"
+          src="https://images.unsplash.com/photo-1649999920973-ab6bfd0c0017?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Image Description"
+        />
+      </div>
+      <div className="pt-4">
+        <h3 className="relative inline-block font-medium text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-lime-400 before:transition before:origin-left before:scale-x-0 group-hover:before:scale-x-100 dark:text-white">
+          Day Spa
+        </h3>
+        <p className="mt-1 text-gray-600 dark:text-neutral-400">
+          Designing a new cocktail can
+        </p>
+        <div className="mt-3 flex flex-wrap gap-2">
+          <span className="py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400">
+            Brand Strategy
+          </span>
+          <span className="py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400">
+            Visual Identity
+          </span>
+        </div>
+      </div>
+    </a>
+    {/* End Card */}
+    {/* Card */}
+    <a className="group block" href="#">
+      <div className="aspect-w-16 aspect-h-12 overflow-hidden bg-gray-100 rounded-2xl dark:bg-neutral-800">
+        <img
+          className="group-hover:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl"
+          src="https://images.unsplash.com/photo-1528291954423-c0c71c12baeb?q=80&w=3426&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Image Description"
+        />
+      </div>
+      <div className="pt-4">
+        <h3 className="relative inline-block font-medium text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-lime-400 before:transition before:origin-left before:scale-x-0 group-hover:before:scale-x-100 dark:text-white">
+          Diamond Dynamics
+        </h3>
+        <p className="mt-1 text-gray-600 dark:text-neutral-400">
+          From cutting-edge equipment to stylish apparel
+        </p>
+        <div className="mt-3 flex flex-wrap gap-2">
+          <span className="py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400">
+            Sports Gear
+          </span>
+          <span className="py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400">
+            Equipment
+          </span>
+          <span className="py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400">
+            Discovery
+          </span>
+        </div>
+      </div>
+    </a>
+    {/* End Card */}
+  </div>
+  {/* End Card Grid */}
+</>
+
+          <>
+  {/* Card Blog */}
+  <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    {/* Grid */}
+    <div className="grid lg:grid-cols-2 gap-6">
+      {/* Card */}
+      <a className="group relative block rounded-xl" href="#">
+        <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full h-[350px] before:absolute before:inset-x-0 before:z-[1] before:size-full before:bg-gradient-to-t before:from-gray-900/70">
+          <img
+            className="size-full absolute top-0 start-0 object-cover"
+            src="https://images.unsplash.com/photo-1669828230990-9b8583a877ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1062&q=80"
+            alt="Image Description"
+          />
+        </div>
+        <div className="absolute top-0 inset-x-0 z-10">
+          <div className="p-4 flex flex-col h-full sm:p-6">
+            {/* Avatar */}
+            <div className="flex items-center">
+              <div className="flex-shrink-0">
+                <img
+                  className="size-[46px] border-2 border-white rounded-full"
+                  src="https://images.unsplash.com/photo-1669837401587-f9a4cfe3126e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+                  alt="Image Description"
+                />
+              </div>
+
+
+              
+              <div className="ms-2.5 sm:ms-4">
+                <h4 className="font-semibold text-white">Gloria</h4>
+                <p className="text-xs text-white/80">Jan 09, 2021</p>
+              </div>
+            </div>
+            {/* End Avatar */}
+          </div>
+        </div>
+        <div className="absolute bottom-0 inset-x-0 z-10">
+          <div className="flex flex-col h-full p-4 sm:p-6">
+            <h3 className="text-lg sm:text-3xl font-semibold text-white group-hover:text-white/80">
+              Facebook is creating a news section in Watch to feature breaking
+              news
+            </h3>
+            <p className="mt-2 text-white/80">
+              Facebook launched the Watch platform in August
+            </p>
+          </div>
+        </div>
+      </a>
+
+
+      {/* End Card */}
+      {/* Card */}
+      <a className="group relative block rounded-xl" href="#">
+        <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full h-[350px] before:absolute before:inset-x-0 before:z-[1] before:size-full before:bg-gradient-to-t before:from-gray-900/70">
+          <img
+            className="size-full absolute top-0 start-0 object-cover"
+            src="https://images.unsplash.com/photo-1611625618313-68b87aaa0626?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
+            alt="Image Description"
+          />
+        </div>
+        <div className="absolute top-0 inset-x-0 z-10">
+          <div className="p-4 flex flex-col h-full sm:p-6">
+            {/* Avatar */}
+            <div className="flex items-center">
+              <div className="flex-shrink-0">
+                <img
+                  className="size-[46px] border-2 border-white rounded-full"
+                  src="https://images.unsplash.com/photo-1669837401587-f9a4cfe3126e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+                  alt="Image Description"
+                />
+              </div>
+              <div className="ms-2.5 sm:ms-4">
+                <h4 className="font-semibold text-white">Gloria</h4>
+                <p className="text-xs text-white/80">May 30, 2021</p>
+              </div>
+            </div>
+            {/* End Avatar */}
+          </div>
+        </div>
+        
+        <div className="absolute bottom-0 inset-x-0 z-10">
+          <div className="flex flex-col h-full p-4 sm:p-6">
+            <h3 className="text-lg sm:text-3xl font-semibold text-white group-hover:text-white/80">
+              What CFR (Conversations, Feedback, Recognition) really is about
+            </h3>
+            <p className="mt-2 text-white/80">
+              For a lot of people these days, Measure What Matters.
+            </p>
+          </div>
+        </div>
+      </a>
+      {/* End Card */}
+    </div>
+    {/* End Grid */}
+  </div>
+  {/* End Card Blog */}
+</>
+
+
 
 
           <>
             <>
               {/* Card Blog */}
-              <div className="max-w-[85rem] px-4 py-10 max-w-10xl lg:px-8 lg:py-14 mx-auto">
-                <h1 className={classes.place}>Top Places in Manali</h1>
-
-
-
-                <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
-                  {/*  Card */}
-                  <Link
-                    className="group hover:bg-gray-100 rounded-xl p-5 transition-all dark:hover:bg-white/[.05]"
-                    href="/manali"
-                  >
-                    <div className="w-full object-cover rounded-xl">
-                      <img
-                        className="w-full object-cover rounded-xl"
-                        src="manikaran sahib.jpeg"
-                        alt="Image Description"
-                      />
-                    </div>
-                    <h3 className="mt-5 text-xl text-gray-800 dark:text-gray-300 dark:hover:text-white">
-                      <b>  Manikaran Sahib</b>
-
-                    </h3>
-
-                    <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800 dark:text-gray-200">
-                      {/* Rating */}
-                      <div className="flex items-center">
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-gray-300 hover:text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-600 dark:hover:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                      </div>
-                      {/* End Rating */}
-                      Learn more
-                      <svg
-                        className="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={24}
-                        height={24}
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth={2}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path d="m9 18 6-6-6-6" />
-                      </svg>
-                    </p>
-                  </Link>
-
-                  <a
-                    className="group hover:bg-gray-100 rounded-xl p-5 transition-all dark:hover:bg-white/[.05]"
-                    href="#"
-                  >
-                    <div className="aspect-w-16 aspect-h-10">
-                      <img
-                        className="w-full object-cover rounded-xl"
-                        src="3solang.jpg"
-                        alt="Image Description"
-                      />
-                    </div>
-                    <h3 className="mt-5 text-xl text-gray-800 dark:text-gray-300 dark:hover:text-white">
-                      <b>Solang Valley </b>
-                    </h3>
-                    <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800 dark:text-gray-200">
-                      {/* Rating */}
-                      <div className="flex items-center">
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-gray-300 hover:text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-600 dark:hover:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                      </div>
-                      {/* End Rating */}
-                      Learn more
-                      <svg
-                        className="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={24}
-                        height={24}
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth={2}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path d="m9 18 6-6-6-6" />
-                      </svg>
-                    </p>
-                  </a>
-                  <a
-                    className="group hover:bg-gray-100 rounded-xl p-5 transition-all dark:hover:bg-white/[.05]"
-                    href="#"
-                  >
-                    <div className="aspect-w-16 aspect-h-10">
-                      <img
-                        className="w-full object-cover rounded-xl"
-                        src="https://images.pexels.com/photos/785419/pexels-photo-785419.jpeg?auto=compress&cs=tinysrgb&w=600"
-                        alt="Image Description"
-                      />
-                    </div>
-                    <h3 className="mt-5 text-xl text-gray-800 dark:text-gray-300 dark:hover:text-white">
-                      <b>Old Manali Snow Point </b>
-
-                    </h3>
-
-
-                    <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800 dark:text-gray-200">
-                      {/* Rating */}
-                      <div className="flex items-center">
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-gray-300 hover:text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-600 dark:hover:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                      </div>
-                      {/* End Rating */}
-                      Learn more
-                      <svg
-                        className="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={24}
-                        height={24}
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth={2}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path d="m9 18 6-6-6-6" />
-                      </svg>
-                    </p>
-                  </a>
-                  {/* End Card */}
-                  {/* Card */}
-                  <a
-                    className="group hover:bg-gray-100 rounded-xl p-5 transition-all dark:hover:bg-white/[.05]"
-                    href="#"
-                  >
-                    <div className="aspect-w-16 aspect-h-10">
-                      <img
-                        className=" w-full object-cover rounded-xl"
-                        src="https://images.pexels.com/photos/19727342/pexels-photo-19727342/free-photo-of-cold-snow-dawn-landscape.jpeg?auto=compress&cs=tinysrgb&w=600"
-                        alt="Image Description"
-                      />
-                    </div>
-                    <h3 className="mt-5 text-xl text-gray-800 dark:text-gray-300 dark:hover:text-white">
-                      <b>Rohtang Pass </b>
-                    </h3>
-                    <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800 dark:text-gray-200">
-                      {/* Rating */}
-                      <div className="flex items-center">
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-gray-300 hover:text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-600 dark:hover:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                      </div>
-                      {/* End Rating */}
-                      Learn more
-                      <svg
-                        className="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={24}
-                        height={24}
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth={2}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path d="m9 18 6-6-6-6" />
-                      </svg>
-                    </p>
-                  </a>
-                  {/* End Card */}
-                  {/* Card */}
-                  <a
-                    className="group hover:bg-gray-100 rounded-xl p-5 transition-all dark:hover:bg-white/[.05]"
-                    href="#"
-                  >
-                    <div className="aspect-w-16 aspect-h-10">
-                      <img
-                        className="w-full object-cover rounded-xl"
-                        src="pexels-florian-grewe-18609986.jpg"
-                        alt="Image Description"
-                      />
-                    </div>
-                    <h3 className="mt-5 text-xl text-gray-800 dark:text-gray-300 dark:hover:text-white">
-                      <b>Buddhist Temple </b>
-                    </h3>
-                    <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800 dark:text-gray-200">
-                      {/* Rating */}
-                      <div className="flex items-center">
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                        <button
-                          type="button"
-                          className="size-5 inline-flex justify-center items-center text-2xl rounded-full text-gray-300 hover:text-yellow-400 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-600 dark:hover:text-yellow-500"
-                        >
-                          <svg
-                            className="flex-shrink-0 size-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                          >
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                          </svg>
-                        </button>
-                      </div>
-                      {/* End Rating */}
-                      Learn more
-                      <svg
-                        className="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={24}
-                        height={24}
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth={2}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path d="m9 18 6-6-6-6" />
-                      </svg>
-                    </p>
-                  </a>
-                  {/* End Card */}
-                </div>
-                {/* End Grid */}
-              </div>
+      
               {/* End Card Blog */}
             </>
             <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
@@ -1002,215 +806,7 @@ const Page = () => {
             </div>
             {/* End Card Blog */}
           </>
-          <section className="bg-gray-900 text-white">
-            <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-              <div className="mx-auto max-w-lg text-center">
-                <h2 className="text-3xl font-bold sm:text-4xl">Kickstart your marketing</h2>
-
-                <p className="mt-4 text-gray-300">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aliquam doloribus
-                  nesciunt eos fugiat. Vitae aperiam fugit consequuntur saepe laborum.
-                </p>
-              </div>
-
-              <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-                <a
-                  className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-                  href="#"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="size-10 text-pink-500"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                    <path
-                      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                    />
-                  </svg>
-
-                  <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
-
-                  <p className="mt-1 text-sm text-gray-300">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-                    distinctio alias voluptatum blanditiis laudantium.
-                  </p>
-                </a>
-
-                <a
-                  className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-                  href="#"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="size-10 text-pink-500"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                    <path
-                      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                    />
-                  </svg>
-
-                  <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
-
-                  <p className="mt-1 text-sm text-gray-300">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-                    distinctio alias voluptatum blanditiis laudantium.
-                  </p>
-                </a>
-
-                <a
-                  className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-                  href="#"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="size-10 text-pink-500"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                    <path
-                      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                    />
-                  </svg>
-
-                  <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
-
-                  <p className="mt-1 text-sm text-gray-300">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-                    distinctio alias voluptatum blanditiis laudantium.
-                  </p>
-                </a>
-
-                <a
-                  className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-                  href="#"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="size-10 text-pink-500"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                    <path
-                      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                    />
-                  </svg>
-
-                  <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
-
-                  <p className="mt-1 text-sm text-gray-300">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-                    distinctio alias voluptatum blanditiis laudantium.
-                  </p>
-                </a>
-
-                <a
-                  className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-                  href="#"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="size-10 text-pink-500"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                    <path
-                      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                    />
-                  </svg>
-
-                  <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
-
-                  <p className="mt-1 text-sm text-gray-300">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-                    distinctio alias voluptatum blanditiis laudantium.
-                  </p>
-                </a>
-
-                <a
-                  className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-                  href="#"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="size-10 text-pink-500"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                    <path
-                      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                    />
-                  </svg>
-
-                  <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
-
-                  <p className="mt-1 text-sm text-gray-300">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-                    distinctio alias voluptatum blanditiis laudantium.
-                  </p>
-                </a>
-              </div>
-
-              <div className="mt-12 text-center">
-                <a
-                  href="#"
-                  className="inline-block rounded bg-pink-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-pink-700 focus:outline-none focus:ring focus:ring-yellow-400"
-                >
-                  Get Started Today
-                </a>
-              </div>
-            </div>
-          </section>
+ 
 
           {/*Subscribe*/}
           <div className="container font-sans bg-green-100 rounded mt-8 p-4 md:p-24 text-center">
