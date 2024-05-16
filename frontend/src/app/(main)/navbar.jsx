@@ -64,7 +64,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    href="/Destination"
+                    href="/destination"
                     className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
                   >
                     <span>DESTINATION</span>
