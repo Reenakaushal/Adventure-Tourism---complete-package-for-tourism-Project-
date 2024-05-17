@@ -6,10 +6,10 @@ import React, { useEffect, useState } from 'react'
 const bookingDetails = () => {
 
   const { id } = useParams();
-  const [packageData, setbookingData] = useState(null);
+  const [bookingDetails, setbookingData] = useState(null);
 
   const fetchbookingDetails = () => {
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}/booking/getbyid/${id}`)
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/bookingDetails/getbyid/${id}`)
       .then((response) => {
         return response.json()
       })
