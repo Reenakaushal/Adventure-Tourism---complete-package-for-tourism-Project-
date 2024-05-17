@@ -31,7 +31,7 @@ const Search = () => {
       return allPackages.map(item => (
         <div className="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
           <div className="h-52 flex flex-col justify-center items-center bg-blue-600 rounded-t-xl">
-            <svg
+            {/* <svg
               className="size-28"
               width={56}
               height={56}
@@ -61,8 +61,9 @@ const Search = () => {
                   <stop offset="0.92" stopColor="#2684FF" />
                 </linearGradient>
               </defs>
-            </svg>
+            </svg> */}
           </div>
+          <img src={"http://localhost:5000/" + item.placecover} alt="" />
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
               {item.place}
