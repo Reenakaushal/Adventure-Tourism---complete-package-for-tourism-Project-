@@ -9,12 +9,12 @@ const Page = () => {
 
     <>
       <Navbar />
-      <div className="relative bg-yellow-50 dark:bg-gray-900">
+      <div className="relative bg-yellow-80 ">
         <div className="container m-auto px-6 pt-32 m:px-12 lg:pt-[4.8rem] lg:px-7">
           <div className="flex items-center flex-wrap px-2 ms:px-0">
             <div className="ml-auto -mb-14 lg:-mx-2 lg:w-4/12">
               <img
-                src="ad.png"
+                src="ad.png "
                 className="relative w-full h-auto"
                 alt="food illustration"
                 loading="lazy"
