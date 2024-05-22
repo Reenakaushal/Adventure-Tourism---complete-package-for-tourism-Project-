@@ -206,7 +206,10 @@ const Page = () => {
 
                   <h2 className="mt-4 text-xl font-bold text-white">{pack.name}</h2>
                   <h2 className="mt-4 text-xl font-bold text-white">{pack.place}</h2>
-
+                  <h2 className="mt-4 text-xl font-bold text-white">{pack.price}</h2>
+                  <h2 className="mt-4 text-xl font-bold text-white">{pack.facilitiesplace}</h2>
+                  <h2 className="mt-4 text-xl font-bold text-white">{pack.placecover}</h2>
+              
                   <p className="mt-1 text-sm text-gray-300">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
                     distinctio alias voluptatum blanditiis laudantium.
