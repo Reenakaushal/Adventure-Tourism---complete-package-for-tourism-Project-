@@ -3,7 +3,8 @@ import Booking from '@/app/admin/booking/page';
 import { useFormik } from 'formik';
 import React from 'react';
 import toast from 'react-hot-toast';
-const Booking = () => {
+
+const AddBooking = () => {
 
   const BookingForm = useFormik({
     initialValues: {
@@ -175,4 +176,4 @@ const Booking = () => {
 
   )
 }
-export default Booking;
+export default AddBooking;
