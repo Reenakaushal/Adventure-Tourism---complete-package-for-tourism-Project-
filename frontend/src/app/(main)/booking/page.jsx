@@ -1,21 +1,22 @@
 'use client';
+import Booking from '@/app/admin/booking/page';
 import { useFormik } from 'formik';
 import React from 'react';
 import toast from 'react-hot-toast';
-const AddPackage = () => {
+const Booking = () => {
 
-  const packageForm = useFormik({
+  const BookingForm = useFormik({
     initialValues: {
-      name: '',
-      place: '',
-      placeCover: '',
-      price: 0,
-      facilities: ''
+      PackageType: '',
+      PackageName: '',
+      JourneyDate: '',
+      Adults: 0,
+      Chailds:0
     },
     onSubmit: values => {
       console.log(values);
 
-      fetch(`${process.env.NEXT_PUBLIC_API_URL}/package/add`, {
+      fetch(`${process.env.NEXT_PUBLIC_API_URL}/Booking/add`, {
         method: 'POST',
         body: JSON.stringify(values),
         headers: {
@@ -28,14 +29,14 @@ const AddPackage = () => {
             response.json()
               .then(data => {
                 console.log(data);
-                toast.success('Package added successfully');
+                toast.success('Booking added successfully');
               })
           } else {
-            toast.error('Failed to add package');
+            toast.error('Failed to add Booking');
           }
         }).catch((err) => {
           console.log(err);
-          toast.error('Failed to add package');
+          toast.error('Failed to add Booking');
         });
 
     }
@@ -53,7 +54,7 @@ const AddPackage = () => {
       .then(response => response.json())
       .then(data => {
         console.log(data);
-        packageForm.setFieldValue('placeCover', file.name);
+        BookingForm.setFieldValue('placeCover', file.PackageType);
       })
       .catch(err => {
         console.log(err);
@@ -63,19 +64,19 @@ const AddPackage = () => {
   return (
     <div className="dark:bg-slate-700">
 
-      <form className="max-w-sm mx-auto" onSubmit={packageForm.handleSubmit}>
+      <form className="max-w-sm mx-auto" onSubmit={Booking.handleSubmit}>
         <div className="mb-5">
           <label
-            htmlFor="name"
+            htmlFor="PackageType"
             className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
           >
-            Name
+           Package Type
           </label>
           <input
             type="text"
-            id="name"
-            onChange={packageForm.handleChange}
-            value={packageForm.values.name}
+            id="Package Type"
+            onChange={Booking.handleChange}
+            value={BookingForm.values.name}
             className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
             required=""
           />
@@ -85,13 +86,13 @@ const AddPackage = () => {
             htmlFor="password"
             className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
           >
-            Place
+            Package Name
           </label>
           <input
             type="text"
-            id="place"
-            onChange={packageForm.handleChange}
-            value={packageForm.values.place}
+            id="Package Name"
+            onChange={BookingForm.handleChange}
+            value={BookingForm.values.place}
             className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
             required=""
           />
@@ -101,11 +102,11 @@ const AddPackage = () => {
             htmlFor="repeat-password"
             className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
           >
-            Placecover
+           Journey Date
           </label>
           <input
             type="file"
-            id="Placecover"
+            id="Journey Date"
             onChange={uploadFile}
             className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
             required=" "
@@ -116,30 +117,29 @@ const AddPackage = () => {
             htmlFor="email"
             className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
           >
-            Price
+            Adults
           </label>
           <input
             type="text"
-            id="price"
-            onChange={packageForm.handleChange}
-            value={packageForm.values.price}
+            id=" Adults"
+            onChange={BookingForm.handleChange}
+            value={BookingForm.values.price}
             className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
-            placeholder="name@flowbite.com"
             required=""
           />
         </div>
         <div className="mb-5">
           <label
-            htmlFor="email"
+            htmlFor=" Adults"
             className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
           >
-            facilities
+            Childs
           </label>
           <textarea
-            type="text"
-            id="facilities"
-            onChange={packageForm.handleChange}
-            value={packageForm.values.facilities}
+            type="Number"
+            id="Chails"
+            onChange={BookingForm.handleChange}
+            value={BookingForm.values.facilities}
             className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
             required=""
           ></textarea>
@@ -175,4 +175,4 @@ const AddPackage = () => {
 
   )
 }
-export default AddPackage;
+export default Booking;
