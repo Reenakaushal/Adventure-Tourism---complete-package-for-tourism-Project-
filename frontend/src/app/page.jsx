@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect, useState } from 'react'
-import classes from './page.module.css'
+import classes from './pageModule.css'
 import Link from 'next/link';
 import Navbar from './(main)/navbar';
 
@@ -30,21 +30,17 @@ const Page = () => {
 
     <>
       <Navbar />
-      <div className="relative bg-yellow-80 ">
+      
+      <div className=" relative mainpage  ">
+      
+       <video autoPlay muted loop class='d1'src="c.mp4"></video>
+        
         <div className="container m-auto px-6 pt-32 m:px-12 lg:pt-[4.8rem] lg:px-7">
           <div className="flex items-center flex-wrap px-2 ms:px-0">
-            <div className="ml-auto -mb-14 lg:-mx-2 lg:w-4/12">
-              <img
-                src="ad.png "
-                className="relative w-full h-auto"
-                alt="food illustration"
-                loading="lazy"
-                tyle={{ margin: 125, height: 200, }}
-              />
-            </div>
+           
             <div className="relative lg:w-6/12 lg:-mx-2 gap-y-4 lg:py-24 xl:py-32" style={{ margin: 125 }} >
 
-              <h1 className="font-bold text-4xl text-yellow-900 dark:text-yellow-50 md:text-5xl  lg:w-10/12">
+              <h1 className="font-bold text-4xl text-white  md:text-5xl  lg:w-10/12">
                 Adventure Tourism Complete Package For Tourism
               </h1>
               <form action="" className="w-full mt-12">
@@ -133,138 +129,48 @@ const Page = () => {
                   </button>
                 </div>
               </form>
-              <p className="mt-8 text-gray-700 dark:text-gray-200 lg:w-10/12">
-                Sit amet consectetur adipisicing elit.{" "}
-                <a href="#" className="text-yellow-700 dark:text-yellow-300">
-                  connection
-                </a>{" "}
-                It's no secret that travel blogging is one of the most popular types of digital content. So if you're starting a new blog, or are looking for fresh ideas to refresh your current ones.
-              </p>
+             
             </div>
 
           </div>
         </div>
       </div>
-      <div className="mx-auto px-4 sm:px-6 lg:px-8">
-        <div>
-
-
-        </div>
-      </div>
+     
 
       {/*Container*/}
-      <div className=" container px-4 md:px-0 max-w-17xl mx-auto mt-32 ">
+      <div className=" container   max-w-17xl mx-auto  ">
         <div className=" relative bg-yellow-50 dark:bg-gray-900 mx-0 sm:mx-6">
           {/*Nav*/}
-          <nav className="mt-0 w-full">
-            <div className="container mx-auto flex items-center">
-              <div className="flex w-1/2 pl-4 text-sm">
-
-              </div>
-
-            </div>
-          </nav>
-
-          <section className="bg-gray-900 text-white">
-            <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-              <div className="mx-auto max-w-lg text-center">
-                <h2 className="text-3xl font-bold sm:text-4xl">Packages</h2>
-
-                <p className="mt-4 text-gray-300">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aliquam doloribus
-                  nesciunt eos fugiat. Vitae aperiam fugit consequuntur saepe laborum.
-                </p>
-              </div>
-
-              <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-              {
-                allPackages.map((pack) => {
-                  return(
-
-                <a
-                  className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-                  href="#"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="size-10 text-pink-500"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                    <path
-                      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                    />
-                  </svg>
-
-                  <h2 className="mt-4 text-xl font-bold text-white">{pack.name}</h2>
-                  <h2 className="mt-4 text-xl font-bold text-white">{pack.place}</h2>
-                  <h2 className="mt-4 text-xl font-bold text-white">{pack.price}</h2>
-                  <h2 className="mt-4 text-xl font-bold text-white">{pack.facilitiesplace}</h2>
-                  <h2 className="mt-4 text-xl font-bold text-white">{pack.placecover}</h2>
-              
-                  <p className="mt-1 text-sm text-gray-300">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-                    distinctio alias voluptatum blanditiis laudantium.
-                  </p>
-                </a>
-
-              
-)
-})
-}
-</div>
-
-
-              <div className="mt-12 text-center">
-                <a
-                  href="#"
-                  className="inline-block rounded bg-pink-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-pink-700 focus:outline-none focus:ring focus:ring-yellow-400"
-                >
-                  Get Started Today
-                </a>
-              </div>
-            </div>
-          </section>
-
           <>
   {/* Card Grid */}
-  <div className="py-12 grid grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-12">
-    {/* Card */}
- 
-    {/* End Card */}
-    {/* Card */}
-  
+  <div className="py-12 grid grid-cols-5 gap-4 sm:gap-6 md:gap-8 lg:gap-12">
+
     {/* End Card */}
     {/* Card */}
     <a className="group block" href="#">
       <div className="aspect-w-16 aspect-h-12 overflow-hidden bg-gray-100 rounded-2xl dark:bg-neutral-800">
         <img
           className="group-hover:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl"
-          src="https://images.unsplash.com/photo-1649999920973-ab6bfd0c0017?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4LltSrAQXDQFYmfGlm4vOw_sluS-xlsxS_A&s"
           alt="Image Description"
         />
       </div>
       <div className="pt-4">
         <h3 className="relative inline-block font-medium text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-lime-400 before:transition before:origin-left before:scale-x-0 group-hover:before:scale-x-100 dark:text-white">
-          Day Spa
+          Delhi
         </h3>
         <p className="mt-1 text-gray-600 dark:text-neutral-400">
-          Designing a new cocktail can
+          From cutting-edge equipment to stylish apparel
         </p>
         <div className="mt-3 flex flex-wrap gap-2">
           <span className="py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400">
-            Brand Strategy
+            Sports Gear
           </span>
           <span className="py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400">
-            Visual Identity
+            Equipment
+          </span>
+          <span className="py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400">
+            Discovery
           </span>
         </div>
       </div>
@@ -272,6 +178,65 @@ const Page = () => {
     {/* End Card */}
     {/* Card */}
     <a className="group block" href="#">
+      <div className="aspect-w-16 aspect-h-12 overflow-hidden bg-gray-100 rounded-2xl dark:bg-neutral-800">
+        <img
+          className="group-hover:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl"
+          src="https://cdn.pixabay.com/photo/2013/12/22/22/10/nubra-232728_640.jpg"
+          alt="Image Description"
+        />
+      </div>
+      <div className="pt-4">
+        <h3 className="relative inline-block font-medium text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-lime-400 before:transition before:origin-left before:scale-x-0 group-hover:before:scale-x-100 dark:text-white">
+          Ladakh
+        </h3>
+        <p className="mt-1 text-gray-600 dark:text-neutral-400">
+          From cutting-edge equipment to stylish apparel
+        </p>
+        <div className="mt-3 flex flex-wrap gap-2">
+          <span className="py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400">
+            Sports Gear
+          </span>
+          <span className="py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400">
+            Equipment
+          </span>
+          <span className="py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400">
+            Discovery
+          </span>
+        </div>
+      </div>
+    </a>
+        {/* Card */}
+        <a className="group block" href="#">
+      <div className="aspect-w-16 aspect-h-12 overflow-hidden bg-gray-100 rounded-2xl dark:bg-neutral-800">
+        <img
+          className="group-hover:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl"
+          src="https://cdn.pixabay.com/photo/2021/01/15/10/51/india-5919073_640.jpg"
+          alt="Image Description"
+        />
+      </div>
+      <div className="pt-4">
+        <h3 className="relative inline-block font-medium text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-lime-400 before:transition before:origin-left before:scale-x-0 group-hover:before:scale-x-100 dark:text-white">
+          Manali
+        </h3>
+        <p className="mt-1 text-gray-600 dark:text-neutral-400">
+          From cutting-edge equipment to stylish apparel
+        </p>
+        <div className="mt-3 flex flex-wrap gap-2">
+          <span className="py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400">
+            Sports Gear
+          </span>
+          <span className="py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400">
+            Equipment
+          </span>
+          <span className="py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400">
+            Discovery
+          </span>
+        </div>
+      </div>
+    </a>
+    {/* End Card */}
+        {/* Card */}
+        <a className="group block" href="#">
       <div className="aspect-w-16 aspect-h-12 overflow-hidden bg-gray-100 rounded-2xl dark:bg-neutral-800">
         <img
           className="group-hover:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl"
@@ -300,6 +265,37 @@ const Page = () => {
       </div>
     </a>
     {/* End Card */}
+        {/* Card */}
+        <a className="group block" href="#">
+      <div className="aspect-w-16 aspect-h-12 overflow-hidden bg-gray-100 rounded-2xl dark:bg-neutral-800">
+        <img
+          className="group-hover:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl"
+          src="https://images.unsplash.com/photo-1528291954423-c0c71c12baeb?q=80&w=3426&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Image Description"
+        />
+      </div>
+      <div className="pt-4">
+        <h3 className="relative inline-block font-medium text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-lime-400 before:transition before:origin-left before:scale-x-0 group-hover:before:scale-x-100 dark:text-white">
+          Diamond Dynamics
+        </h3>
+        <p className="mt-1 text-gray-600 dark:text-neutral-400">
+          From cutting-edge equipment to stylish apparel
+        </p>
+        <div className="mt-3 flex flex-wrap gap-2">
+          <span className="py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400">
+            Sports Gear
+          </span>
+          <span className="py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400">
+            Equipment
+          </span>
+          <span className="py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400">
+            Discovery
+          </span>
+        </div>
+      </div>
+    </a>
+    {/* End Card */}
+    {/* End Card */}
   </div>
   {/* End Card Grid */}
 </>
@@ -308,9 +304,101 @@ const Page = () => {
   {/* Card Blog */}
   <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
     {/* Grid */}
-    <div className="grid lg:grid-cols-2 gap-6">
+    <div className="grid lg:grid-cols-4 gap-6">
       {/* Card */}
       <a className="group relative block rounded-xl" href="#">
+        <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full h-[350px] before:absolute before:inset-x-0 before:z-[1] before:size-full before:bg-gradient-to-t before:from-gray-900/70">
+          <img
+            className="size-full absolute top-0 start-0 object-cover"
+            src="https://images.unsplash.com/photo-1669828230990-9b8583a877ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1062&q=80"
+            alt="Image Description"
+          />
+        </div>
+        <div className="absolute top-0 inset-x-0 z-10">
+          <div className="p-4 flex flex-col h-full sm:p-6">
+            {/* Avatar */}
+            <div className="flex items-center">
+              <div className="flex-shrink-0">
+                <img
+                  className="size-[46px] border-2 border-white rounded-full"
+                  src="https://images.unsplash.com/photo-1669837401587-f9a4cfe3126e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+                  alt="Image Description"
+                />
+              </div>
+
+
+              
+              <div className="ms-2.5 sm:ms-4">
+                <h4 className="font-semibold text-white">Gloria</h4>
+                <p className="text-xs text-white/80">Jan 09, 2021</p>
+              </div>
+            </div>
+            {/* End Avatar */}
+          </div>
+        </div>
+        <div className="absolute bottom-0 inset-x-0 z-10">
+          <div className="flex flex-col h-full p-4 sm:p-6">
+            <h3 className="text-lg sm:text-3xl font-semibold text-white group-hover:text-white/80">
+              Facebook is creating a news section in Watch to feature breaking
+              news
+            </h3>
+            <p className="mt-2 text-white/80">
+              Facebook launched the Watch platform in August
+            </p>
+          </div>
+        </div>
+      </a>
+
+
+      {/* End Card */}
+            {/* Card */}
+            <a className="group relative block rounded-xl" href="#">
+        <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full h-[350px] before:absolute before:inset-x-0 before:z-[1] before:size-full before:bg-gradient-to-t before:from-gray-900/70">
+          <img
+            className="size-full absolute top-0 start-0 object-cover"
+            src="https://images.unsplash.com/photo-1669828230990-9b8583a877ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1062&q=80"
+            alt="Image Description"
+          />
+        </div>
+        <div className="absolute top-0 inset-x-0 z-10">
+          <div className="p-4 flex flex-col h-full sm:p-6">
+            {/* Avatar */}
+            <div className="flex items-center">
+              <div className="flex-shrink-0">
+                <img
+                  className="size-[46px] border-2 border-white rounded-full"
+                  src="https://images.unsplash.com/photo-1669837401587-f9a4cfe3126e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+                  alt="Image Description"
+                />
+              </div>
+
+
+              
+              <div className="ms-2.5 sm:ms-4">
+                <h4 className="font-semibold text-white">Gloria</h4>
+                <p className="text-xs text-white/80">Jan 09, 2021</p>
+              </div>
+            </div>
+            {/* End Avatar */}
+          </div>
+        </div>
+        <div className="absolute bottom-0 inset-x-0 z-10">
+          <div className="flex flex-col h-full p-4 sm:p-6">
+            <h3 className="text-lg sm:text-3xl font-semibold text-white group-hover:text-white/80">
+              Facebook is creating a news section in Watch to feature breaking
+              news
+            </h3>
+            <p className="mt-2 text-white/80">
+              Facebook launched the Watch platform in August
+            </p>
+          </div>
+        </div>
+      </a>
+
+
+      {/* End Card */}
+            {/* Card */}
+            <a className="group relative block rounded-xl" href="#">
         <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full h-[350px] before:absolute before:inset-x-0 before:z-[1] before:size-full before:bg-gradient-to-t before:from-gray-900/70">
           <img
             className="size-full absolute top-0 start-0 object-cover"

@@ -1,13 +1,14 @@
 'use client'
 import React from 'react'
+import classes from './navbarModule.css'
 
 
 const Navbar = () => {
   return (
     <>
-    <nav className="fixed z-10 w-full bg-white dark:bg-transparent md:absolute md:bg-transparent">
+    <nav className="fixedM HEADER shadow-2xl z-10 w-full bg-white dark:bg-white md:absolute md:bg-transparent">
       <div className="container m-auto px-2 md:px-12 lg:px-7">
-        <div className="flex flex-wrap items-center justify-between py-3 gap-6 md:py-4 md:gap-0">
+        <div className="flex flex-wrap  items-center justify-between py-3 gap-6 md:py-4 md:gap-0">
           <input
             type="checkbox"
             name="toggle_nav"
@@ -17,9 +18,9 @@ const Navbar = () => {
           <div className="w-full px-6 flex justify-between lg:w-max md:px-0 z-30">
             <a href="#" aria-label="logo" className="flex space-x-2 items-center">
              
-              <span className="text-2xl font-bold text-yellow-900 dark:text-white">
+              <span className="text-2xl font-bold text-white dark:text-white ">
                 ADVENTURE{" "}
-                <span className="text-yellow-700 dark:text-yellow-300">
+                <span className="text-white dark:text-yellow-300">
                   PACKAGES
                 </span>
               </span>
@@ -57,7 +58,7 @@ const Navbar = () => {
                <li>
                   <a
                     href="/home"
-                    className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
+                    className="block md:px-4 transition text-white dark:hover:text-white"
                   >
                     <span>Home</span>
                   </a>
@@ -65,7 +66,7 @@ const Navbar = () => {
                 <li>
                   <a
                     href="/destination"
-                    className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
+                    className="block md:px-4 transition text-white dark:hover:text-white"
                   >
                     <span>DESTINATION</span>
                 
@@ -74,7 +75,7 @@ const Navbar = () => {
                 <li>
                   <a
                     href="/Hotel"
-                    className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
+                    className="block md:px-4 transition text-white dark:hover:text-white"
                   >
                     <span>HOTELS </span>
                   </a>
@@ -91,7 +92,7 @@ const Navbar = () => {
                 <li>
                   <a
                     href="/search"
-                    className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
+                    className="block md:px-4 transition text-white dark:hover:text-white"
                   >
                     <span>PACKAGES</span>
                   </a>
@@ -99,7 +100,7 @@ const Navbar = () => {
                 <li>
                   <a
                     href="/contact"
-                    className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
+                    className="block md:px-4 transition text-white dark:hover:text-white"
                   >
                     <span>CONTACT</span>
                   </a>
@@ -107,7 +108,7 @@ const Navbar = () => {
                 <li>
                   <a
                     href="/about"
-                    className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
+                    className="block md:px-4 transition text-white dark:hover:text-white"
                   >
                     <span>ABOUT</span>
                   </a>
@@ -117,7 +118,7 @@ const Navbar = () => {
             
             <div
               className="w-full min-w-max space-y-2 
-                border-yellow-200 lg:space-y-0 sm:w-max lg:border-l dark:lg:border-gray-700"
+              block md:px-4 transition text-white dark:hover:text-white"
             >
             <button
                 type="button"

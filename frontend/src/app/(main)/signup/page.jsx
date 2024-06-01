@@ -1,6 +1,7 @@
 'use client';
 import { useFormik } from 'formik';
 import React from 'react';
+import classes from './signupModule.css';
 import * as Yup from 'yup';
 
 const SignupSchema = Yup.object().shape({
@@ -47,14 +48,14 @@ const Signup = () => {
 
   return (
     <div>
-      <main className="w-full max-w-md mx-auto p-6">
-        <div className="mt-7 bg-white border border-gray-200 rounded-xl shadow-sm dark:bg-gray-800 dark:border-gray-700">
-          <div className="p-4 sm:p-7">
-            <div className="text-center">
-              <h1 className="block text-2xl font-bold text-gray-800 dark:text-white">
+      <main className=" w-full max-w-md mx-auto p-2">
+        <div className="primary mt-40 bg-white border rounded-xl shadow-2xl border-pink-800 translate-y-6 " >
+          <div className="p-4 sm:p-7 ">
+            <div className="text-center ">
+              <h1 className="block text-2xl font-bold text-gray-800 dark:text-white  ">
                 Sign up
               </h1>
-              <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
+              <p className="mt-2 text-sm text-gray-800 text-black">
                 Already have an account?
                 <a
                   className="text-blue-600 decoration-2 hover:underline font-medium dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
