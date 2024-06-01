@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import classes from './navbarModule.css';
+import classes from './navbar.module.css';
 const AdminNavbar = () => {
   return (
     <div>

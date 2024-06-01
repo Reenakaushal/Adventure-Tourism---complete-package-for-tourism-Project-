@@ -63,7 +63,7 @@ const Search = () => {
               </defs>
             </svg> */}
           </div>
-          <img src={"http://localhost:5000/" + item.placecover} alt="" />
+          <img src={"http://localhost:5000/" + item.placeCover} alt="" />
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
               {item.place}

@@ -1,8 +1,10 @@
 'use client';
 import { useFormik } from 'formik';
-import React from 'react';
+import React, { useState } from 'react';
 import toast from 'react-hot-toast';
 const AddPackage = () => {
+
+  const [images, setimages] =useState([]);
 
   const packageForm = useFormik({
     initialValues: {
@@ -14,7 +16,7 @@ const AddPackage = () => {
     },
     onSubmit: values => {
       console.log(values);
-
+      values.placeCover = images.name
       fetch(`${process.env.NEXT_PUBLIC_API_URL}/package/add`, {
         method: 'POST',
         body: JSON.stringify(values),
@@ -44,21 +46,19 @@ const AddPackage = () => {
 
   const uploadFile = (e) => {
     const file = e.target.files[0];
-    const formData = new FormData();
-    formData.append('myfile', file);
-    fetch('http://localhost:5000/util/uploadfile', {
-      method: 'POST',
-      body: formData
-    })
-      .then(response => response.json())
-      .then(data => {
-        console.log(data);
-        packageForm.setFieldValue('placeCover', file.name);
-      })
-      .catch(err => {
-        console.log(err);
-      });
-  }
+   
+    setimages(file);
+    const fd = new FormData();
+    fd.append("myfile",file);
+    fetch("http://localhost:5000/util/uploadfile", {
+      method: "POST",
+      body: fd,
+    }).then((res) => {
+      if (res.status === 200) {
+        console.log("file uploaded");
+      }
+  });
+  };
 
   return (
     <div className="dark:bg-slate-700">

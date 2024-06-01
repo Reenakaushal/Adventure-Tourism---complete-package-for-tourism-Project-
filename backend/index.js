@@ -21,6 +21,8 @@ app.use('/booking', bookingRouter);
 app.use('/util', utilRouter);
 
 const port = 5000;
+ 
+app.use(express.static(' ./static/uploads '));
 
 app.get('/', (req, res) => {
     res.send('response from express');
