@@ -49,7 +49,7 @@ const Signup = () => {
   return (
     <div>
       <main className=" w-full max-w-md mx-auto p-2">
-        <div className="primary mt-40 w-9/12 bg-white border rounded-xl shadow-2xl border-pink-800 translate-y-6 " >
+        <div className="primary mt-40 bg-white border rounded-xl shadow-2xl border-pink-800 translate-y-6 " >
           <div className="p-4 sm:p-7 ">
             <div className="text-center ">
               <h1 className="block text-2xl font-bold text-gray-800 dark:text-white  ">
