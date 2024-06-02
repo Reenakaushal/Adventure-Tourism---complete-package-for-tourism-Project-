@@ -37,10 +37,13 @@ const Login = () => {
 
   return (
     <div>
-      <main className=" w-full  max-w-md mx-auto p-6" id='navbox'>
-        <div className=" mt-7 bg-white border border-gray-200 rounded-xl shadow-sm dark:bg-gray-800 dark:border-gray-700 ">
-          <div className="p-4 sm:p-7">
+      <main className="bg-gray-100 flex items-center w-full justify-center h-screen" >
+        <div className="bg-white p-1 rounded-lg shadow-lg  flex w-full max-w-md mx-auto p-2 items-center">
+        <img className='w-5/12 animate-bounce' src="https://thumbs.dreamstime.com/b/basic-rgb-302810722.jpg" alt="" />
+          <div className="w-1/2 hidden md:block">
+       
             <div className="text-center">
+              
               <h1 className="block text-2xl font-bold text-gray-800 dark:text-white">
                 Login
               </h1>
@@ -85,7 +88,7 @@ const Login = () => {
                 </svg>
                 Sign up with Google
               </button>
-              <div className="py-3 flex items-center text-xs text-gray-400 uppercase before:flex-[1_1_0%] before:border-t before:border-gray-200 before:me-6 after:flex-[1_1_0%] after:border-t after:border-gray-200 after:ms-6 dark:text-gray-500 dark:before:border-gray-600 dark:after:border-gray-600">
+              <div className="py-3 flex items-center text-xs text-black uppercase before:flex-[1_1_0%] before:border-t before:border-gray-200 before:me-6 after:flex-[1_1_0%] after:border-t after:border-gray-200 after:ms-6 dark:text-gray-500 dark:before:border-gray-600 dark:after:border-gray-600">
                 Or
               </div>
               {/* Form */}
@@ -176,6 +179,7 @@ const Login = () => {
                         id="remember-me"
                         name="remember-me"
                         type="checkbox"
+                      
                         className="shrink-0 mt-0.5 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
                       />
                     </div>
